@@ -2,9 +2,10 @@
 
 ## Description
 
-StGD is short for "Stefan George Digital" and a prototype of a ‘typography-centered edition’ of the literary work of the German author Stefan George (1868–1933). It is currently under development and will be published soon. This repository will provide the data of the edition.
+StGD is short for "Stefan George Digital" and a prototype of a ‘typography-centered edition’ of the literary work of the German author Stefan George (1868–1933). It is currently under development and will be published soon. This repository will provide news about the publication process as well as provide some data of the edition.
 
-### The digital scholarly edition
+
+## The digital scholarly edition
 
 The focus of StGD is the editorial enrichment of information on typography in general and on microtypography in particular, i.e. of the design and use of typefaces and fonts. StGD includes 25 printed editions of George’s poetical works published between 1897 and 1922. The single works are represented in the corpus variable numbers of times according to their typographical variation. All sources are enriched by bibliographical metadata and digital facsimiles. Four typographical versions of “Der Teppich des Lebens und die Lieder von Traum und Tod mit einem Vorspiel“ (1899–1932) are available as edited full texts and with regard to their typographical variance at line level.
 

@@ -13,7 +13,7 @@ The focus of StGD is the editorial enrichment of information on typography in ge
 All edited sources are enhanced by descriptions of the applied fonts based on a description ontology that has been developed for this purpose. This ontology also lays the foundation for the microtypographical inventory, which is part of the edition and a research tool itself. It offers three exploration modes: the type repertoire (Typenrepertoire), e.g. to retrace the genesis of the St-G-typeface, the form repertoire (Formenrepertoire), e.g. to observe the transmission of design features between typefaces, and the typeset repertoire (Satzrepertoire), e.g. to explore the application of fonts in certain text contexts. 
 
 
-![Concept of edition](https://github.com/FrederikeNeuber/stgd-prototype-edition/blob/master/media/concept)
+![Concept of edition](https://github.com/FrederikeNeuber/stgd-prototype-edition/blob/master/media/concept.png)
 
 
 ### Technical framework

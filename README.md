@@ -2,12 +2,12 @@
 
 ## Description
 
-StGD is short for "Stefan George Digital" and a prototype of a ‘typography-centered edition’ of the literary work of the German author Stefan George (1868–1933). It is currently under development and will be published soon. This repository will provide news about the publication process as well as provide some data of the edition.
+StGD is short for ‘Stefan George Digital’ and a prototype of a ‘typography-centered edition’ of the literary work of the German author Stefan George (1868–1933). It is currently under development and will be published soon. This repository will provide news about the publication process as well as provide some data of the edition.
 
 
 ## The digital scholarly edition
 
-The focus of StGD is the editorial enrichment of information on typography in general and on microtypography in particular, i.e. of the design and use of typefaces and fonts. StGD includes 25 printed editions of George’s poetical works published between 1897 and 1922. The single works are represented in the corpus variable numbers of times according to their typographical variation. All sources are enriched by bibliographical metadata and digital facsimiles. Four typographical versions of “Der Teppich des Lebens und die Lieder von Traum und Tod mit einem Vorspiel“ (1899–1932) are available as edited full texts and with regard to their typographical variance at line level.
+The focus of StGD is the editorial enrichment of information on typography in general and on microtypography in particular, i.e. of the design and use of typefaces and fonts. StGD includes 25 printed editions of George’s poetical works published between 1897 and 1922. The single works are represented in the corpus variable numbers of times according to their typographical variation. All sources are enriched by bibliographical metadata and digital facsimiles. Four typographical versions of ‘Der Teppich des Lebens und die Lieder von Traum und Tod mit einem Vorspiel’ (1899–1932) are available as edited full texts and with regard to their typographical variance at line level.
 
 ### The microtypographical inventory
 
@@ -28,6 +28,6 @@ The technical ecosystem of StGD is the FEDORA-based asset management system GAMS
 
 **Context of Creation:** StGD emerged within the author’s PhD at the Centre for Information Modelling at the University of Graz and the University of Cologne (finished 2019, to be published). It was supported by the *Digital Scholarly Editions Initial Training Network* DiXiT (funded 2013–2017 under Marie Curie Actions within the European Commission’s 7th Framework). 
 
-**License:** CC-BY 3.0
+**License:** CC-BY-NC-SA 4.0
 
-**Citation Recommendation:** Neuber, Frederike. "stgd-prototype-edition: A prototype edition with focus on microtypography in Stefan George's works" Date Published 28.4.2020. Date Accessed: #### (https://github.com/FrederikeNeuber/stgd-prototype-edition
+**Citation Recommendation:** Neuber, Frederike. ‘stgd-prototype-edition: A prototype edition with focus on microtypography in Stefan George's works’ Date Published 28.4.2020. Date Accessed: #### (https://github.com/FrederikeNeuber/stgd-prototype-edition

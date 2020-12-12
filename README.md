@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository collects data from the prototype edition ‘Stefan George Digital’ (short StGD) which is dedicated to the typographical dimension of Stefan George’s (1868–1933) literary work and available at http://gams.uni-graz.at/context:stgd The prototype edition was published as part of a dissertation which is available at http://kups.ub.uni-koeln.de/id/eprint/12202 (2020). For information in English see https://doi.org/10.5281/zenodo.3700455
+This repository collects data from the prototype edition ‘Stefan George Digital’ (short StGD) which is dedicated to the typographical dimension of Stefan George’s (1868–1933) literary work and available at http://gams.uni-graz.at/context:stgd. The prototype edition was published as part of a dissertation which is available at http://kups.ub.uni-koeln.de/id/eprint/12202 (2020). For information in English see https://doi.org/10.5281/zenodo.3700455.
 
 ## Content of the repository
 
@@ -11,7 +11,7 @@ This repository collects data from the prototype edition ‘Stefan George Digita
 * XML/TEI files (25)
 * relaxNG-schema of the TEI-files
 
-## Some background information on the prototype edition
+## Background information on the prototype edition
 
 ### Edition of printed books
 
@@ -28,7 +28,7 @@ All edited sources are enhanced by descriptions of the applied fonts based on a 
 
 ### Technical framework
 
-The technical ecosystem of StGD is the FEDORA-based asset management system GAMS (Geisteswissenschaftliches Asset Management System) that guarantees long time archiving. The digital images are provided via IIIF in several viewers (Mirador and Open Seadragon), bibliographical metadata and texts are encoded in XML/TEI. The type descriptions are based on an ontology in RDF/OWL. Since the latter is documented and can be referenced via stable URIs, it can be further used as Semantic Web resource to be implemented in other projects as well.
+The technical ecosystem of StGD is the FEDORA-based asset management system GAMS (Geisteswissenschaftliches Asset Management System) that guarantees long time archiving. Bibliographical metadata and texts are encoded in XML/TEI. The type descriptions are based on an ontology in RDF/OWL. 
 
 ## Creation and Usage
 
@@ -38,4 +38,4 @@ The technical ecosystem of StGD is the FEDORA-based asset management system GAMS
 
 **License:** CC-BY-NC-SA 4.0
 
-**Citation Recommendation:** Neuber, Frederike. ‘stgd-prototype-edition: A prototype edition with focus on microtypography in Stefan George's works’ Date Published 28.4.2020. Date Accessed: #### (https://github.com/FrederikeNeuber/stgd-prototype-edition
+**Citation Recommendation:** Neuber, Frederike. ‘stgd-prototype-edition: A prototype edition with focus on microtypography in Stefan George's works’ Date Published 28.4.2020. Date Accessed: #### , https://github.com/FrederikeNeuber/stgd-prototype-edition.

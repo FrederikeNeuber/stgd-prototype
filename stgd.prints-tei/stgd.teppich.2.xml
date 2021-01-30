@@ -1,0 +1,2863 @@
+<?xml-model href="http://gams.uni-graz.at/context:stgd/SCHEMA" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI n="full ovh" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Der Teppich des Lebens und die Lieder von Traum und Tod. Mit einem Vorspiel (2.
+          Aufl., 1901)</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/11853856X">Stefan George</persName>
+        </author>
+        <editor>
+          <persName ref="http://d-nb.info/gnd/1121508855">Frederike Neuber</persName>
+        </editor>
+        <respStmt>
+          <resp>Transkription</resp>
+          <orgName ref="http://textgridrep.org/textgrid:nb76.0"> Die Transkription basiert auf dem
+            digitalen Volltext der "Gesamt-Ausgabe der Werke" der Digitalen Bibliothek im TextGrid
+            Repositorium und wurde für die jeweilige Auflage überprüft und modifiziert.</orgName>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digitale Edition der typografisch-varianten Gedichtbände Stefan Georges</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Institut Zentrum für Informationsmodellierung – Austrian Centre for Digital
+            Humanities, Universität Graz </orgName>
+          <email>zim@uni-graz.at</email>
+          <note>The research leading to this edition was funded by a Marie Skłodowska-Curie Early
+            Stage Research Fellowship through the Digital Scholarly Editions Initial Training
+            Network (DiXiT) ITN, a Marie Skłodowska-Curie Action, underwritten by the EU 7th
+            Framework People’s Programme (FP7/2007-2013), REA grant no. 317436.</note>
+          <address>
+            <addrLine>Elisabethstr. 59, 8010 Graz</addrLine>
+            <country>Austria</country>
+          </address>
+        </publisher>
+        <pubPlace>Graz</pubPlace>
+        <date type="publication">Dezember 2020</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">
+            <p>CC BY-NC-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno type="PID">o:stgd.teppich.2</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Stefan George: Der Teppich des Lebens und die Lieder von Traum und Tod. Mit einem
+          Vorspiel. Berlin: Georg Bondi. 1901.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title type="main">Der Teppich des Lebens und die Lieder von Traum und Tod. Mit einem
+              Vorspiel.</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/11853856X">Stefan George </persName>
+            </author>
+            <respStmt>
+              <resp>Druckerei</resp>
+              <orgName ref="http://d-nb.info/gnd/1072952971">R. Boll</orgName>
+            </respStmt>
+          </titleStmt>
+          <editionStmt>
+            <edition n="2">Zweite Ausgabe als Volksausgabe</edition>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>
+              <orgName ref="http://d-nb.info/gnd/1072941562">Georg Bondi Verlag</orgName>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">1901</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Berlin</settlement>
+            <repository>Staatsbibliothek zu Berlin — Preußischer Kulturbesitz</repository>
+            <idno>
+              <idno type="shelfmark">SBB-PK Berlin Yo 28000&lt;2&gt;</idno>
+              <idno type="URLCatalogue">http://stabikat.de/DB=1/XMLPRS=N/PPN?PPN=23679132X</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <bibl type="context">
+                <bibl>1. Aufl. 1900 (Prachtausgabe)<ref>o:stgd.teppich.1</ref>
+                </bibl>
+                <bibl>3. Aufl. 1905 (erste Auflage in St-G-Schrift)<ref>o:stgd.teppich.3</ref>
+                </bibl>
+                <bibl>Gesamt-Ausgabe Bd. 5 1932<ref>o:stgd.teppich.ga</ref>
+                </bibl>
+              </bibl>
+            </summary>
+          </msContents>
+          <physDesc>
+            <objectDesc form="book">
+              <supportDesc material="papier">
+                <support>Büttenähnliches Papier</support>
+                <extent> 98 S. <dimensions type="bookBlock">
+                    <width>15,5 cm</width>
+                    <height>21,2 cm</height>
+                    <depth>1,4 cm</depth>
+                    <dim>Oktav</dim>
+                  </dimensions>
+                </extent>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1">
+                  <dim type="top">3 cm</dim>
+                  <dim type="inner">2,6 cm</dim>
+                  <dim type="fußsteg">5,5 cm</dim>
+                  <dim type="außensteg">3,4 cm</dim>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <typeDesc>
+              <typeNote xml:id="stgd.teppich.2-titel">
+                <desc>Titel</desc>
+                <ptr corresp="#FACS-6"/>
+                <ptr corresp="#FACS-12"/>
+              </typeNote>
+              <typeNote xml:id="stgd.teppich.2-vorwort">
+                <desc>Vorwort</desc>
+                <ptr corresp="#FACS-16"/>
+              </typeNote>
+              <typeNote xml:id="stgd.teppich.2-gedichte">
+                <desc>Gedichte</desc>
+                <ptr corresp="#FACS-18"/>
+                <ptr corresp="#FACS-19"/>
+                <ptr corresp="#FACS-20"/>
+                <ptr corresp="#FACS-21"/>
+                <ptr corresp="#FACS-22"/>
+                <ptr corresp="#FACS-23"/>
+                <ptr corresp="#FACS-24"/>
+                <ptr corresp="#FACS-25"/>
+                <ptr corresp="#FACS-26"/>
+                <ptr corresp="#FACS-27"/>
+                <ptr corresp="#FACS-28"/>
+                <ptr corresp="#FACS-29"/>
+                <ptr corresp="#FACS-30"/>
+                <ptr corresp="#FACS-31"/>
+                <ptr corresp="#FACS-32"/>
+                <ptr corresp="#FACS-33"/>
+                <ptr corresp="#FACS-34"/>
+                <ptr corresp="#FACS-35"/>
+                <ptr corresp="#FACS-36"/>
+                <ptr corresp="#FACS-37"/>
+                <ptr corresp="#FACS-38"/>
+                <ptr corresp="#FACS-39"/>
+                <ptr corresp="#FACS-40"/>
+                <ptr corresp="#FACS-41"/>
+                <ptr corresp="#FACS-42"/>
+                <ptr corresp="#FACS-43"/>
+                <ptr corresp="#FACS-44"/>
+                <ptr corresp="#FACS-45"/>
+                <ptr corresp="#FACS-46"/>
+                <ptr corresp="#FACS-47"/>
+                <ptr corresp="#FACS-48"/>
+                <ptr corresp="#FACS-49"/>
+                <ptr corresp="#FACS-50"/>
+                <ptr corresp="#FACS-51"/>
+                <ptr corresp="#FACS-52"/>
+                <ptr corresp="#FACS-53"/>
+                <ptr corresp="#FACS-54"/>
+                <ptr corresp="#FACS-55"/>
+                <ptr corresp="#FACS-56"/>
+                <ptr corresp="#FACS-57"/>
+                <ptr corresp="#FACS-58"/>
+                <ptr corresp="#FACS-59"/>
+                <ptr corresp="#FACS-60"/>
+                <ptr corresp="#FACS-61"/>
+                <ptr corresp="#FACS-62"/>
+                <ptr corresp="#FACS-63"/>
+                <ptr corresp="#FACS-64"/>
+                <ptr corresp="#FACS-65"/>
+                <ptr corresp="#FACS-66"/>
+                <ptr corresp="#FACS-67"/>
+                <ptr corresp="#FACS-68"/>
+                <ptr corresp="#FACS-69"/>
+                <ptr corresp="#FACS-70"/>
+                <ptr corresp="#FACS-71"/>
+                <ptr corresp="#FACS-72"/>
+                <ptr corresp="#FACS-73"/>
+                <ptr corresp="#FACS-74"/>
+                <ptr corresp="#FACS-75"/>
+                <ptr corresp="#FACS-76"/>
+                <ptr corresp="#FACS-77"/>
+                <ptr corresp="#FACS-78"/>
+                <ptr corresp="#FACS-79"/>
+                <ptr corresp="#FACS-80"/>
+                <ptr corresp="#FACS-81"/>
+                <ptr corresp="#FACS-82"/>
+                <ptr corresp="#FACS-83"/>
+                <ptr corresp="#FACS-84"/>
+                <ptr corresp="#FACS-85"/>
+                <ptr corresp="#FACS-86"/>
+                <ptr corresp="#FACS-87"/>
+                <ptr corresp="#FACS-88"/>
+                <ptr corresp="#FACS-89"/>
+                <ptr corresp="#FACS-90"/>
+                <ptr corresp="#FACS-91"/>
+                <ptr corresp="#FACS-92"/>
+                <ptr corresp="#FACS-93"/>
+                <ptr corresp="#FACS-94"/>
+                <ptr corresp="#FACS-95"/>
+                <ptr corresp="#FACS-96"/>
+                <ptr corresp="#FACS-97"/>
+                <ptr corresp="#FACS-98"/>
+                <ptr corresp="#FACS-99"/>
+                <ptr corresp="#FACS-100"/>
+                <ptr corresp="#FACS-101"/>
+                <ptr corresp="#FACS-102"/>
+                <ptr corresp="#FACS-103"/>
+                <ptr corresp="#FACS-104"/>
+                <ptr corresp="#FACS-105"/>
+                <ptr corresp="#FACS-106"/>
+                <ptr corresp="#FACS-108"/>
+                <ptr corresp="#FACS-109"/>
+                <ptr corresp="#FACS-110"/>
+                <ptr corresp="#FACS-111"/>
+                <ptr corresp="#FACS-112"/>
+              </typeNote>
+              <typeNote xml:id="stgd.teppich.2-kolophon">
+                <desc>Kolophon</desc>
+                <ptr corresp="#FACS-107"/>
+              </typeNote>
+            </typeDesc>
+            <decoDesc>
+              <decoNote type="cover">Das vorliegende Exemplar wurde neu eingebunden</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc>
+      <ab>
+        <ref target="info:fedora/context:stgd.teppich" type="context">Der Teppich des Lebens und die
+          Lieder von Traum und Tod. Mit einem Vorspiel</ref>
+        <ref target="info:fedora/context:stgd" type="context">Stefan George Digital</ref>
+      </ab>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+
+
+    <surface start="#page1">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-1"/>
+    </surface>
+    <surface start="#page2">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-2"/>
+    </surface>
+    <surface start="#page3">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-3"/>
+    </surface>
+    <surface start="#page4">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-4"/>
+    </surface>
+    <surface start="#page5">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-5"/>
+    </surface>
+    <surface start="#page6">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-6"/>
+    </surface>
+    <surface start="#page7">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-7"/>
+    </surface>
+    <surface start="#page8">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-8"/>
+    </surface>
+    <surface start="#page9">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-9"/>
+    </surface>
+    <surface start="#page10">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-10"/>
+    </surface>
+    <surface start="#page11">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-11"/>
+    </surface>
+    <surface start="#page12">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-12"/>
+    </surface>
+    <surface start="#page13">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-13"/>
+    </surface>
+    <surface start="#page14">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-14"/>
+    </surface>
+    <surface start="#page15">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-15"/>
+    </surface>
+    <surface start="#page16">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-16"/>
+    </surface>
+    <surface start="#page17">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-17"/>
+    </surface>
+    <surface start="#page18">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-18"/>
+    </surface>
+    <surface start="#page19">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-19"/>
+    </surface>
+    <surface start="#page20">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-20"/>
+    </surface>
+    <surface start="#page21">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-21"/>
+    </surface>
+    <surface start="#page22">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-22"/>
+    </surface>
+    <surface start="#page23">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-23"/>
+    </surface>
+    <surface start="#page24">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-24"/>
+    </surface>
+    <surface start="#page25">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-25"/>
+    </surface>
+    <surface start="#page26">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-26"/>
+    </surface>
+    <surface start="#page27">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-27"/>
+    </surface>
+    <surface start="#page28">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-28"/>
+    </surface>
+    <surface start="#page29">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-29"/>
+    </surface>
+    <surface start="#page30">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-30"/>
+    </surface>
+    <surface start="#page31">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-31"/>
+    </surface>
+    <surface start="#page32">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-32"/>
+    </surface>
+    <surface start="#page33">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-33"/>
+    </surface>
+    <surface start="#page34">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-34"/>
+    </surface>
+    <surface start="#page35">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-35"/>
+    </surface>
+    <surface start="#page36">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-36"/>
+    </surface>
+    <surface start="#page37">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-37"/>
+    </surface>
+    <surface start="#page38">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-38"/>
+    </surface>
+    <surface start="#page39">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-39"/>
+    </surface>
+    <surface start="#page40">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-40"/>
+    </surface>
+    <surface start="#page41">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-41"/>
+    </surface>
+    <surface start="#page42">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-42"/>
+    </surface>
+    <surface start="#page43">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-43"/>
+    </surface>
+    <surface start="#page44">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-44"/>
+    </surface>
+    <surface start="#page45">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-45"/>
+    </surface>
+    <surface start="#page46">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-46"/>
+    </surface>
+    <surface start="#page47">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-47"/>
+    </surface>
+    <surface start="#page48">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-48"/>
+    </surface>
+    <surface start="#page49">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-49"/>
+    </surface>
+    <surface start="#page50">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-50"/>
+    </surface>
+    <surface start="#page51">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-51"/>
+    </surface>
+    <surface start="#page52">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-52"/>
+    </surface>
+    <surface start="#page53">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-53"/>
+    </surface>
+    <surface start="#page54">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-54"/>
+    </surface>
+    <surface start="#page55">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-55"/>
+    </surface>
+    <surface start="#page56">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-56"/>
+    </surface>
+    <surface start="#page57">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-57"/>
+    </surface>
+    <surface start="#page58">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-58"/>
+    </surface>
+    <surface start="#page59">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-59"/>
+    </surface>
+    <surface start="#page60">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-60"/>
+    </surface>
+    <surface start="#page61">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-61"/>
+    </surface>
+    <surface start="#page62">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-62"/>
+    </surface>
+    <surface start="#page63">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-63"/>
+    </surface>
+    <surface start="#page64">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-64"/>
+    </surface>
+    <surface start="#page65">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-65"/>
+    </surface>
+    <surface start="#page66">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-66"/>
+    </surface>
+    <surface start="#page67">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-67"/>
+    </surface>
+    <surface start="#page68">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-68"/>
+    </surface>
+    <surface start="#page69">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-69"/>
+    </surface>
+    <surface start="#page70">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-70"/>
+    </surface>
+    <surface start="#page71">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-71"/>
+    </surface>
+    <surface start="#page72">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-72"/>
+    </surface>
+    <surface start="#page73">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-73"/>
+    </surface>
+    <surface start="#page74">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-74"/>
+    </surface>
+    <surface start="#page75">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-75"/>
+    </surface>
+    <surface start="#page76">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-76"/>
+    </surface>
+    <surface start="#page77">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-77"/>
+    </surface>
+    <surface start="#page78">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-78"/>
+    </surface>
+    <surface start="#page79">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-79"/>
+    </surface>
+    <surface start="#page80">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-80"/>
+    </surface>
+    <surface start="#page81">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-81"/>
+    </surface>
+    <surface start="#page82">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-82"/>
+    </surface>
+    <surface start="#page83">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-83"/>
+    </surface>
+    <surface start="#page84">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-84"/>
+    </surface>
+    <surface start="#page85">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-85"/>
+    </surface>
+    <surface start="#page86">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-86"/>
+    </surface>
+    <surface start="#page87">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-87"/>
+    </surface>
+    <surface start="#page88">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-88"/>
+    </surface>
+    <surface start="#page89">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-89"/>
+    </surface>
+    <surface start="#page90">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-90"/>
+    </surface>
+    <surface start="#page91">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-91"/>
+    </surface>
+    <surface start="#page92">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-92"/>
+    </surface>
+    <surface start="#page93">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-93"/>
+    </surface>
+    <surface start="#page94">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-94"/>
+    </surface>
+    <surface start="#page95">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-95"/>
+    </surface>
+    <surface start="#page96">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-96"/>
+    </surface>
+    <surface start="#page97">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-97"/>
+    </surface>
+    <surface start="#page98">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-98"/>
+    </surface>
+    <surface start="#page99">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-99"/>
+    </surface>
+    <surface start="#page100">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-100"/>
+    </surface>
+    <surface start="#page101">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-101"/>
+    </surface>
+    <surface start="#page102">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-102"/>
+    </surface>
+    <surface start="#page103">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-103"/>
+    </surface>
+    <surface start="#page104">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-104"/>
+    </surface>
+    <surface start="#page105">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-105"/>
+    </surface>
+    <surface start="#page106">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-106"/>
+    </surface>
+    <surface start="#page107">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-107"/>
+    </surface>
+    <surface start="#page108">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-108"/>
+    </surface>
+    <surface start="#page109">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-109"/>
+    </surface>
+    <surface start="#page110">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-110"/>
+    </surface>
+    <surface start="#page111">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-111"/>
+    </surface>
+    <surface start="#page112">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.teppich.2" xml:id="FACS-112"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <pb facs="#FACS-01" n="[Buchrücken]" xml:id="page1"/>
+      <pb facs="#FACS-02" n="[Buchdeckel vorne]" xml:id="page2"/>
+      <pb facs="#FACS-03" n="[Vorsatz/Spiegel]" xml:id="page3"/>
+      <pb facs="#FACS-04" n="[Vorsatz/Fliegendes Blatt]" xml:id="page4"/>
+      <pb facs="#FACS-05" n="[Vorsatz/Fliegendes Blatt]" xml:id="page5"/>
+      <pb facs="#FACS-06" n="[Titelseite]" xml:id="page6"/>
+      <pb facs="#FACS-07" n="[Titelseite]" xml:id="page7"/>
+      <pb facs="#FACS-08" n="[1]" xml:id="page8"/>
+      <pb facs="#FACS-09" n="[2]" xml:id="page9"/>
+      <pb facs="#FACS-10" n="[3]" xml:id="page10"/>
+      <pb facs="#FACS-11" n="[4 Anzeige]" xml:id="page11"/>
+      <div type="advertisment">
+        <p>* * * VOM SELBEN VERFASSER: * * *<lb/> DIE FIBEL · AUSWAHL ERSTER VERSE <lb/>HYMNEN ·
+          PILGERFAHRTEN · ALGABAL<lb/>DIE BÜCHER DER HIRTEN UND PREIS-<lb/>GEDICHTE · DER SAGEN UND
+          SÄNGE ·<lb/>UND DER HÄNGENDEN GÄRTEN * * * *<lb/> DAS JAHR DER SEELE * * * * * * * * *</p>
+      </div>
+      <pb facs="#FACS-12" n="[5 Titelblatt]" xml:id="page12"/>
+      <titlePage type="main">
+        <byline>
+          <docAuthor key="11853856X">STEFAN·GEORGE</docAuthor>:</byline>
+        <docTitle>
+          <titlePart>DER<lb/>TEPPICH·DES·LE<lb/>BENS·UND·DIE·LIE<lb/>DER·VON·TRAUM·UND<lb/>
+            TOD·MIT·EINEM·VORSPIEL</titlePart>
+        </docTitle>
+        <lb/>
+        <docEdition>ZWEITE AUSGABE</docEdition>
+        <lb/>
+        <figure>
+          <figDesc>Monstranzsignet</figDesc>
+          <note type="typographical">Entworfen von Melchior Lechter um 1899 für die Blätter für die
+            Kunst.</note>
+        </figure>
+        <lb/>
+        <docImprint>
+          <publisher>
+            <orgName key="107307675X">GEORG·BONDI</orgName>
+          </publisher>
+          <lb/>
+          <pubPlace>BERLIN</pubPlace>·<docDate>1901</docDate>
+        </docImprint>
+      </titlePage>
+      <pb facs="#FACS-13" n="[6]" xml:id="page13"/>
+      <pb facs="#FACS-14" n="[7]" xml:id="page14"/>
+      <div type="dedication">
+        <head rend="center">
+          <persName key="118726935">MELCHIOR LECHTER</persName>
+        </head>
+        <pb facs="#FACS-15" n="[8]" xml:id="page15"/>
+        <pb facs="#FACS-16" n="[9 Vorwort/Widmung]" xml:id="page16"/>
+        <p rend="serif">
+          <hi rend="in">D</hi>a diese allgemeine ausgabe den <lb/>schmuck der ersten entbehren
+          muss:<lb/> zu den kostbaren einfassungen die <lb/>bilder des über wolken thronenden<lb/>
+          engels der lebenergiessenden blumen <lb/>und der harfe in der hand der lezten
+          <lb/>leidenschaft: so sei es mir vergönnt den <lb/>erlauchten namen vor diese seiten
+          zu<lb/> schreiben der mit ihnen so eng ver-<lb/>bunden ist und der sie auf immer
+            ziere.<note type="editorial">Gemeint sind die von Melchior Lechter gestalteten
+            Zwischentitel der Erstausgabe.</note>
+        </p>
+      </div>
+      <pb facs="#FACS-17" n="[10]" xml:id="page17"/>
+    </front>
+    <body>
+      <pb facs="#FACS-18" n="[11]" xml:id="page18"/>
+      <div type="section">
+        <head rend="center bold">VORSPIEL</head>
+        <pb facs="#FACS-19" n="[12]" xml:id="page19"/>
+        <pb facs="#FACS-20" n="[13]" xml:id="page20"/>
+        <pb facs="#FACS-21" n="14" xml:id="page21"/>
+        <div type="poem">
+          <head rend="left bold">I</head>
+          <lg rend="serif">
+            <l>Ich forschte bleichen eifers nach dem horte</l>
+            <l>Nach strofen drinnen tiefste kümmerniss</l>
+            <l>Und dinge rollten dumpf und ungewiss <pc corresp="#pc1">—</pc>
+            </l>
+            <l>Da trat ein nackter engel durch die pforte:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Entgegen trug er dem versenkten sinn</l>
+            <l>Der reichsten blumen last und nicht geringer</l>
+            <l>Als mandelblüten waren seine finger</l>
+            <l>Und rosen <pc corresp="#pc2" rend="space"/> rosen waren um sein kinn.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Auf seinem haupte keine krone ragte</l>
+            <l>Und seine stimme fast der meinen glich:</l>
+            <l>Das schöne leben sendet mich an dich</l>
+            <l>Als boten: während er dies lächelnd sagte</l>
+          </lg>
+          <lg rend="serif">
+            <l>Entfielen ihm die lilien und mimosen —</l>
+            <l>Und als ich sie zu heben mich gebückt</l>
+            <l>Da kniet auch <emph corresp="#em1">Er</emph> · ich badete beglückt</l>
+            <l>Mein ganzes antlitz in den frischen rosen.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-22" n="15" xml:id="page22"/>
+        <div type="poem">
+          <head rend="right">II</head>
+          <lg rend="serif">
+            <l>
+              <w corresp="#orto1" rend="i-e">Gieb</w> mir den grossen feierlichen hauch</l>
+            <l>
+              <w corresp="#orto2" rend="i-e">Gieb</w> jene glut mir wieder die verjünge</l>
+            <l>Mit denen einst der kindheit flügelschwünge</l>
+            <l>Sich hoben zu dem frühsten opferrauch.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ich mag nicht atmen als in deinem duft.</l>
+            <l>Verschliess mich ganz in deinem heiligtume<pc corresp="#pc3">!</pc>
+            </l>
+            <l>Von deinem reichen tisch nur eine krume!</l>
+            <l>So fleh ich heut aus meiner dunklen kluft.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und <emph corresp="#em2">Er</emph>: was jezt mein ohr so stürmisch trifft</l>
+            <l>Sind wünsche die sich unentwirrbar streiten.</l>
+            <l>Gewährung eurer vielen kostbarkeiten</l>
+            <l>Ist nicht mein amt · und meine ehrengift</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wird nicht im zwang errungen · dies erkenn!</l>
+            <l>Ich aber bog den arm an seinen knieen</l>
+            <l>Und aller wachen sehnsucht stimmen schrieen:</l>
+            <l>Ich lasse nicht · du segnetest mich denn.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-23" n="16" xml:id="page23"/>
+        <div type="poem">
+          <head rend="left bold">III</head>
+          <lg rend="serif">
+            <l>In meinem leben rannen schlimme tage</l>
+            <l>Und manche töne hallten rauh und schrill.</l>
+            <l>Nun hält ein guter geist die rechte wage</l>
+            <l>Nun <w corresp="#orto3" rend="t-h">thu</w> ich alles was der engel will.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wenn auch noch oft an freudelosem ufer</l>
+            <l>Die seele bis zum schluchzen sich vergisst</l>
+            <l>Sie hört sogleich am ankerplatz den rufer:</l>
+            <l>Zu schönerm strand die segel aufgehisst!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wenn mich aufs hohe meer geneigt ein neuer</l>
+            <l>Gewittersturm umtost vom wahne links</l>
+            <l>Vom tode rechts — so greift <emph corresp="#em3" rend="maj">Er</emph> schnell das
+              steuer</l>
+            <l>Der kräfte toben harrt des einen winks:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Gebietend schlichtet <emph corresp="#em4" rend="maj">Er</emph> der wellen hader</l>
+            <l>Die wolken weichen reiner bläue dort . .</l>
+            <l>Bald zieht auf glatten wassern dein geschwader</l>
+            <l>Zur stillen insel zum gelobten port.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-24" n="17" xml:id="page24"/>
+        <div type="poem">
+          <head rend="right bold">IV</head>
+          <lg rend="serif">
+            <l>Zu lange dürst ich schon nach eurem glücke.</l>
+            <l>Dass mich des herren joch nicht mehr bedrücke!</l>
+            <l>Zu düster und zu einsam war sein dienst</l>
+            <l>Als du mir schmerzlichem am weg erschienst.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Er gebe mir die freiheit wieder · nehme</l>
+            <l>Die palmen und die starren diademe<pc corresp="#pc5" rend="none"/>
+            </l>
+            <l>
+              <pc corresp="#pc6">—</pc> Versprechen einer neuen morgenblust <pc corresp="#pc7"
+                >—</pc>
+            </l>
+            <l>Um dich<pc corresp="#pc8">!</pc> mit meiner stirn an deiner brust<pc corresp="#pc9">.
+                .</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>Da trat <emph corresp="#em">Er</emph> mir entgegen fahnenschwinger</l>
+            <l>Im herbstes-golde und er hob den finger</l>
+            <l>Und lenkte mich zurück in seinen bann</l>
+            <l>Mit einem ton wie einst den geist umspann</l>
+          </lg>
+          <lg rend="serif">
+            <l>Beim märchen der antikischen Sirenen </l>
+            <l>Und mit dem langen schwermutblick der jenen</l>
+            <l>Des Meisters an dem see der heimat glich</l>
+            <l>Als er die jünger fragte: liebt ihr mich?</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-25" n="18" xml:id="page25"/>
+        <div type="poem">
+          <head rend="left bold">V</head>
+          <lg rend="serif">
+            <l>Du wirst nicht mehr die lauten fahrten preisen</l>
+            <l>Wo falsche flut gefährlich dich umstürmt</l>
+            <l>Und wo der abgrund schroffe felsen türmt</l>
+            <l>Um deren spitzen himmels adler kreisen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>In diesen einfachen gefilden lern</l>
+            <l>Den hauch der den zu kühlen frühling lindert</l>
+            <l>Und den begreifen der die schwüle mindert</l>
+            <l>Und ihrem kindesstammeln horche gern!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du findest das geheimnis ewiger runen</l>
+            <l>In dieser halden strenger linienkunst</l>
+            <l>Nicht nur in mauermeeres zauberdunst.</l>
+            <l>
+              <pc corresp="#pc10">»</pc>Schon lockt nicht mehr das <emph corresp="#em7"
+                >Wunder</emph> der lagunen</l>
+          </lg>
+          <lg rend="serif">
+            <l>Das allumworbene trümmergrosse Rom </l>
+            <l>Wie herber eichen duft und rebenblüten</l>
+            <l>Wie sie die Deines volkes hort behüten —</l>
+            <l>Wie Deine wogen <supplied>—</supplied> lebengrüner Strom!<pc corresp="#pc11">«</pc>
+            </l>
+          </lg>
+        </div>
+        <pb facs="#FACS-26" n="19" xml:id="page26"/>
+        <div type="poem">
+          <head rend="right bold">VI</head>
+          <lg rend="serif">
+            <l>Entsinne dich der schrecken die dir längst</l>
+            <l>Verschollen sind seit du mir eigen bleibst</l>
+            <l>Und nur durch mich der gluten kelch empfängst</l>
+            <l>Der dich berauschen wird solang du leibst.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du danktest damals mir als grösste gunst</l>
+            <l>Dass dich mein friede nicht mehr schauen liess</l>
+            <l>Der trocknen sommer wilde feuersbrunst</l>
+            <l>Die heimatlos dich in die wüste stiess.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Als dir mein haus — so hoch — verächtlich war</l>
+            <l>
+              <pc corresp="#pc12">»</pc>Nur diesen einen kurzen blick der wahl</l>
+            <l>Und ich verleugne lehre und altar<pc corresp="#pc13">«</pc>
+            </l>
+            <l>So zischte durch die nacht dein ruf der qual.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Das opfer bäumte sich am herde auf</l>
+            <l>Der purpur zündete wie leichtes stroh</l>
+            <l>Und floss in flammen um der säulen knauf</l>
+            <l>Der ganze tempel wankte lichterloh.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-27" n="20" xml:id="page27"/>
+        <div type="poem">
+          <head rend="left bold">VII</head>
+          <lg rend="serif">
+            <l>Ich bin freund und führer dir und ferge<pc corresp="#pc14">.</pc>
+            </l>
+            <l>Nicht mehr mitzustreiten ziemt dir nun</l>
+            <l>Auch nicht mit den Weisen · hoch vom berge</l>
+            <l>Sollst du schaun wie sie im thale thun.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Weite menge siehst du rüstig traben</l>
+            <l>Laut ist ihr sich mühendes gewimmel:</l>
+            <l>Forscht die dinge nützet ihre gaben</l>
+            <l>Und ihr habt die welt als freudenhimmel.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Drüben schwärme folgen ernst im qualme</l>
+            <l>Einem bleichen mann auf weissem pferde</l>
+            <l>Mit verhaltnen gluten in dem psalme:</l>
+            <l>Kreuz du bleibst noch lang das licht der erde.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Eine kleine schar zieht stille bahnen</l>
+            <l>Stolz entfernt vom wirkenden getriebe</l>
+            <l>Und als losung steht auf ihren fahnen:</l>
+            <l>Hellas ewig unsre liebe.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-28" n="21" xml:id="page28"/>
+        <div type="poem">
+          <head rend="right bold">VIII</head>
+          <lg rend="serif">
+            <l>Du sprichst mir nie von sünde oder sitte.</l>
+            <l>
+              <pc corresp="#pc15">»</pc>Ihr meine schüler <pc corresp="#pc16">·</pc> sprossen von
+                geblüt<pc corresp="#pc17">·</pc>
+            </l>
+            <l>Erkennt und kürt das edle unbemüht . .</l>
+            <l>Auch heimlich bin ich richte eurer tritte.</l>
+          </lg>
+          <lg rend="serif">
+            <l>So lieb ich dich: wie früher lehren spruch</l>
+            <l>Als märchen ehrend du in mittaglicher</l>
+            <l>Umgebung vor dich hinschaust · weges-sicher </l>
+            <l>Nicht weisst von scham von reue oder fluch.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du wohntest viel in enger wahlgemeinde</l>
+            <l>Im lieben ohne maass und ohne lass</l>
+            <l>Vorm schicksal wenig klage wenig hass</l>
+            <l>Doch lange rache nährend wider feinde.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und bei den thaten denen weder lohn</l>
+            <l>Noch busse — die du strahlend rühmst vor freien</l>
+            <l>Und die nach volkes wahn zum himmel schreien</l>
+            <l>Da zuckte ich nur lächelnd: sohn! o sohn!<pc corresp="#pc18">«</pc>
+            </l>
+          </lg>
+        </div>
+        <pb facs="#FACS-29" n="22" xml:id="page29"/>
+        <div type="poem">
+          <head rend="left bold">IX</head>
+          <lg rend="serif">
+            <l>Nicht forsche welchem spruch das höchste lob</l>
+            <l>Und welchem sang der kranz gebührt am fest<pc corresp="#pc19">!</pc>
+            </l>
+            <l>Was gestern sturm durch herbe felder schnob</l>
+            <l>Ist heut im lorbeerbusch geweihter west.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Bald war es leuchtende und reine saat</l>
+            <l>Kristalle die durch klaren morgen schien</l>
+            <l>Bald finster-ädrig fliessender achat</l>
+            <l>Dann wie ein heftig sprühender rubin.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Was als ein rieseln kam gelind und lau</l>
+            <l>In der verlassenen welkenden allee</l>
+            <l>Und mehr nicht als ein tropfen duftiger tau</l>
+            <l>Der von der blume fiel zum tiefen see:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ward volle feuchte die den berg durchbrach</l>
+            <l>Und die in dunkelsten mittnächten dann</l>
+            <l>Als jäher strahl ins herz der felsen stach</l>
+            <l>Wie eine rote quelle sprang und rann.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-30" n="23" xml:id="page30"/>
+        <div type="poem">
+          <head rend="right bold">X</head>
+          <lg rend="serif">
+            <l>Verweilst du in den traurigsten bezirken</l>
+            <l>Wo ruhmlos that der starken wie der bleichen</l>
+            <l>Begraben wird so lenkt — wie ohn entweichen</l>
+            <l>Zu jeder lust der leib — mein ruf zum wirken.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die klare antwort steigt mit meiner sonne</l>
+            <l>Wenn du dich fragst: nach welchem winde kehren</l>
+            <l>Wo greifen da sich alle fäden queren</l>
+            <l>Wo schöpfen da es quillt aus jedem bronne?</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und leidest du am zagemut der väter</l>
+            <l>Dass der gestalten wechselnd buntes schwirren</l>
+            <l>Und ihre überfülle dich verirren:</l>
+            <l>Vernichtet dich die weltenzahl im äther:</l>
+          </lg>
+          <lg rend="serif">
+            <l>So komm zur stätte wo wir uns verbünden<pc corresp="#pc20">!</pc>
+            </l>
+            <l>In meinem hain der weihe hallt es brausend:</l>
+            <l>Sind auch der dinge formen abertausend</l>
+            <l>Ist dir nur Eine — Meine — sie zu künden.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-31" n="24" xml:id="page31"/>
+        <div type="poem">
+          <head rend="left bold">XI</head>
+          <lg rend="serif">
+            <l>Ihr bangt der Obern pracht nie mehr zu nennen</l>
+            <l>Wenn nicht auf schwerer stirn ihr blitz euch zückt</l>
+            <l>Der sich nicht rufen lässt .. die kinder flennen</l>
+            <l>Um selige stunde die so kurz nur schmückt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dann fleckt auf jedem wort der menge stempel</l>
+            <l>Der toren mund macht süsse laute schal</l>
+            <l>Ihr klagt: du ton der donner ton der tempel</l>
+            <l>Ergreifst du uns allmächtig noch einmal?</l>
+          </lg>
+          <lg rend="serif">
+            <l>Es sanken haupt und hand der müden werker</l>
+            <l>Der stoff ward ungefüge spröd und kalt ..</l>
+            <l>Da — ohne wunsch und zeichen — bricht im kerker</l>
+            <l>Ein streif wie schieres silber durch den spalt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Es hebt sich leicht was eben dumpf und bleiern</l>
+            <l>Es blinkt geläutert was dem staub gezollt ..</l>
+            <l>Ein bräutliches beginnliches entschleiern ..</l>
+            <l>Nun spricht der Ewige: ich will! ihr sollt!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-32" n="25" xml:id="page32"/>
+        <div type="poem">
+          <head rend="right bold">XII</head>
+          <lg rend="serif">
+            <l>Wir die als fürsten wählen und verschmähn</l>
+            <l>Und welten heben aus den alten angeln</l>
+            <l>Wir sollen siech und todesmüde spähn</l>
+            <l>Und denken dass des höchsten wir ermangeln —</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dass wir der liebe treuste priester wol</l>
+            <l>Sie suchen müssen in verhülltem jammern</l>
+            <l>Die augen weit von wilden feuern hohl —</l>
+            <l>Und wenn wir endlich unser gut umklammern</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dass es gekrönt verehrt genossen kaum</l>
+            <l>Den sinnen wieder flüchtet fahl und mürbe ..</l>
+            <l>All unsre götter schatten nur und schaum!</l>
+            <l>
+              <pc corresp="#pc21">»</pc>Ich weiss dass euer herz verblutend stürbe</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wenn ich den spruch nicht kennte der es stillt:</l>
+            <l>Da jedes bild vor dem ihr fleht und fliehet</l>
+            <l>Durch euch so gross ist und durch euch so gilt ..</l>
+            <l>Beweinet nicht zu sehr was ihr ihm liehet<pc corresp="#pc22">«</pc>
+            </l>
+          </lg>
+        </div>
+        <pb facs="#FACS-33" n="26" xml:id="page33"/>
+        <div type="poem">
+          <head rend="left bold">XIII</head>
+          <lg rend="serif">
+            <l>Seit jenem märchen wo ihr meine mündel</l>
+            <l>An leicht bewölktem sonnigem gestade</l>
+            <l>Geleitet wart auf schmale weisse pfade</l>
+            <l>Und lilien trugt und korn- und traubenbündel</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ist dir die Eine liebe unvergänglich ..</l>
+            <l>So oft es auch in toll verschlungne äste</l>
+            <l>Und nebel lockte schwankender moräste</l>
+            <l>Und in das dickicht düster und verfänglich:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du fühltest scheu wie vor dem ungestümen</l>
+            <l>Des wimmelnden und kämpfenden getreibes</l>
+            <l>Wie vor dem falschen maass unedlen leibes</l>
+            <l>Und übergliedern an den ungetümen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die frühe liebe blieb zum licht <pc corresp="#pc1a">·</pc> zu holden</l>
+            <l>Geländen sanftem berg und schlanker pinie</l>
+            <l>Zur reinen farbe und zur klaren linie</l>
+            <l>Und zum geflüster aus den gartendolden.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-34" n="27" xml:id="page34"/>
+        <div type="poem">
+          <head rend="right bold">XIV</head>
+          <lg rend="serif">
+            <l>Du stiegest ab von deinem hohen hause</l>
+            <l>Zum wege · manche freunde standen neben</l>
+            <l>Du suchtest unter ihnen deine klause</l>
+            <l>Und sahst dich um gleichwie in andrem leben.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dich werden deine gipfel nicht mehr schützen</l>
+            <l>Doch wie seither in lauterstem gewande</l>
+            <l>Wirst du an deines nächsten arm dich stützen</l>
+            <l>Und bleibst wie vormals gast von fernem strande</l>
+          </lg>
+          <lg rend="serif">
+            <l>Den vielen — die du immer meiden möchtest.</l>
+            <l>Vergeblich wäre wenn sie dich umschlängen</l>
+            <l>Und töricht wenn du zwischen ihnen föchtest.</l>
+            <l>Sie sind zu fremd in deines webens gängen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nur manchmal bricht aus ihnen edles feuer</l>
+            <l>Und offenbart dir dass ihr bund nicht schände.</l>
+            <l>Dann sprich: in starker schmerzgemeinschaft euer</l>
+            <l>Erfass ich eure brüderlichen hände.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-35" n="28" xml:id="page35"/>
+        <div type="poem">
+          <head rend="left bold">XV</head>
+          <lg rend="serif">
+            <l>Dein geist zurück in jenes jahr geschwenkt</l>
+            <l>Begreift es heut nicht welche sternenmeilen</l>
+            <l>Vom ort dich trennten wo die menschen weilen</l>
+            <l>So dass sich jede stirne staunend senkt<pc corresp="#pc23">:</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>Als du die tempel bautest für das Vliess</l>
+            <l>Die bleiche pracht hienieden übertrafen</l>
+            <l>Und alles stumm war im verwunschnen hafen</l>
+            <l>Und gold die farbe aller träume hiess.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Da führte dich durch felsiges gerill</l>
+            <l>Bekannten pfad ein fruchtbeladner sommer</l>
+            <l>Die hänge lächelten dem frohen kommer</l>
+            <l>Gesichter grüssten wenn auch scheu und still.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dies sind die wiesen mit geblümtem sammt</l>
+            <l>Die schweren ähren auf den schwanken stengeln</l>
+            <l>Gesang der schnitter die die sensen dengeln <pc corresp="#pc24">. .</pc>
+            </l>
+            <l>Dir ruft die erde zu der ihr entstammt.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-36" n="29" xml:id="page36"/>
+        <div type="poem">
+          <head rend="right bold">XVI</head>
+          <lg rend="serif">
+            <l>Dem markt und ufer gelte dein besuch</l>
+            <l>Der starken und der schlanken sehne schnellen</l>
+            <l>Der menge stürmen jauchzen lied und spruch</l>
+            <l>Der nackten glieder gleiten in den wellen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Zu neuer form und farbe wird gedeihn</l>
+            <l>Der streit von mensch mit mensch und tier und erde</l>
+            <l>Der knaben sprung der mädchen ringelreihn</l>
+            <l>Und gang und tanz und zierliche geberde.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Doch ist wo du um tiefste schätze freist</l>
+            <l>Der freunde nächtiger raum · schon schweigt geplauder</l>
+            <l>Da bebt ein ton und eine miene kreist</l>
+            <l>Und schütteln mit der offenbarung schauder.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Da steigt das mächtige wort — ein grosses heil —</l>
+            <l>Ein stern der auf verborgenen furchen glimmert</l>
+            <l>Das wort von neuer lust und pein: ein pfeil</l>
+            <l>Der in die seele bricht und zuckt und flimmert.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-37" n="30" xml:id="page37"/>
+        <div type="poem">
+          <head rend="left bold">XVII</head>
+          <lg rend="serif">
+            <l>Er darf nun reden wie herab vom äther</l>
+            <l>Der neue lichter zündete im nachten</l>
+            <l>Erlösung fand aus dumpfen lebens schmachten<pc corresp="#pc25" rend="none"/>
+            </l>
+            <l>Der lang verborgen als ein sichrer thäter</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die welken erden hob durch neue glänze</l>
+            <l>Und seinen brüdern durch sein amt bedeutet</l>
+            <l>Wo sie vor allen wahren ruhm erbeutet</l>
+            <l>Und das geheimnis lehrte neuer tänze.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ihm wird die ehre drum wie keinen thronen</l>
+            <l>Dem sich in froher huldigung ergaben</l>
+            <l>Die seherfrauen und die edlen knaben</l>
+            <l>— Die her<supplied>r</supplied>scher denen künftig völker frohnen<pc corresp="#pc26"
+                >.</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>So steigt allein den göttern opferbrodem</l>
+            <l>Wie ihm der heiligen jugend lobesstimme</l>
+            <l>Die über seine stufen höher klimme</l>
+            <l>In ihrem odem viel von seinem odem.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-38" n="31" xml:id="page38"/>
+        <div type="poem">
+          <head rend="right bold">XVIII</head>
+          <lg rend="serif">
+            <l>Einst werden sie in deinen schluchten spüren</l>
+            <l>Was noch darin von deiner stimme dröhne.</l>
+            <l>
+              <pc corresp="#pc27">»</pc>Ist dies der ort von klagen thränen schwüren<pc
+                corresp="#pc28">!</pc>
+            </l>
+            <l>O kleine tiefe<pc corresp="#pc29">«</pc> und der eine höhne:</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <pc corresp="#pc30">»</pc>Sind dies die so gelobten hügelspitzen</l>
+            <l>Mit ihrem freudenblick in fabellande?</l>
+            <l>Sind dies die wellen die verderblich spritzen?</l>
+            <l>Wir reichen mit dem finger bis zum sande<pc corresp="#pc31">«</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>Und jener wende sich von dir verdrossen:</l>
+            <l>
+              <pc corresp="#pc32">»</pc>Er gab uns nur zu staunen und zu scheuen. </l>
+            <l>Wie fernab diese menschentage sprossen!</l>
+            <l>Wie könnten wir uns ihrer früchte freuen<pc corresp="#pc33">«</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>So sind dir trost und beispiel höchste meister</l>
+            <l>Die attischen die reinsten gottesdiener</l>
+            <l>Der Nebel-inseln finstrer fürst der geister</l>
+            <l>Valclusas siedler und der Florentiner.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-39" n="32" xml:id="page39"/>
+        <div type="poem">
+          <head rend="left bold">XIX</head>
+          <lg rend="serif">
+            <l>Zu wem als dir soll sie die blicke wenden</l>
+            <l>Die glühend Suchende der du zuerst</l>
+            <l>Die höhen wiesest und das glück bescherst</l>
+            <l>Das diese bunten tage nimmer senden?</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du gibst den rausch · sie schwebt zum ewigen thore</l>
+            <l>Erhoffter strahlen jauchzendem gemisch</l>
+            <l>Sie gleitet durch den saal zum göttertisch</l>
+            <l>Erfüllung leuchtet · lösung schallt im chore.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die unerreichte flur scheint ihr gewonnen</l>
+            <l>Sie überfliegt die klüfte mit dem aar</l>
+            <l>Sie schaltet mit der kleinen sterne schaar</l>
+            <l>Und stürzt entgegen väterlichen sonnen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nun musst du sie im irren hasten zügeln</l>
+            <l>Du beugest dich aus deiner wolkenstatt</l>
+            <l>Und hüllst die zitternd ist und freude-satt</l>
+            <l>Getreuer geist! mit schweren traumesflügeln.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-40" n="33" xml:id="page40"/>
+        <div type="poem">
+          <head rend="right bold">XX</head>
+          <lg rend="serif">
+            <l>Ihr ist als ob bei jeder zeitenkehr</l>
+            <l>Sie mehr nur hungre nach der heiligen zehr</l>
+            <l>Verstossen von dem flor der ufer-bänke</l>
+            <l>Im strom des grams nur immer tiefer sänke</l>
+          </lg>
+          <lg rend="serif">
+            <l>Verlassen von den leitern ihrer bahn</l>
+            <l>Der Venus heller fackel und dem Schwan</l>
+            <l>Gefährdet gar vom glanzumflossenen gotte</l>
+            <l>Und taumelnd wie die licht-versengte motte.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Da sinnt sie nach: wenn ein verglühter kien</l>
+            <l>Der tag <pc corresp="#pc2a" rend="none"/>ein end und ein begräbnis schien</l>
+            <l>In immer schwärzere nebel sich verdichtend<pc corresp="#pc3a">:</pc>
+            </l>
+            <l>Noch niemals blieb der morgen aus der lichtend</l>
+          </lg>
+          <lg rend="serif">
+            <l>Das tal ihr wieder wies das duftig bläut</l>
+            <l>Wo heimlich singen und ein tief geläut</l>
+            <l>Und ein gesicht aus maienbüschen lugend</l>
+            <l>Ihr riefen: sieh dich noch mit deiner jugend!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-41" n="34" xml:id="page41"/>
+        <div type="poem">
+          <head rend="left bold">XXI</head>
+          <lg rend="serif">
+            <l>Solang noch farbenrauch den berg verklärte</l>
+            <l>Fand ich auf meinem zuge leicht die fährte</l>
+            <l>Und manche stimme kannt ich im geheg <pc corresp="#pc4a">·</pc>
+            </l>
+            <l>Nun ist es stumm auf grauem abendsteg.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nun schreitet niemand der für kurze strecke</l>
+            <l>Desselben ganges in mir hoffnung wecke</l>
+            <l>Mit noch so kleinem troste mir begehr <pc corresp="#pc5a">·</pc>
+            </l>
+            <l>So ganz im dunkel wallt kein wandrer mehr.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und mit des endes ton — dem lied der grille —</l>
+            <l>Geht auch erinnrung sterben in der stille.</l>
+            <l>Ein fahler dunst um kalte wälder braut</l>
+            <l>Verwischt die pfade ohne licht und laut.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ein grabesodem steigt aus feuchtem bühle</l>
+            <l>Wo alle schlummern müssen · doch ich fühle</l>
+            <l>DEIN wehen noch das wieder glut entfacht</l>
+            <l>Und deine grosse liebe die noch wacht.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-42" n="35" xml:id="page42"/>
+        <div type="poem">
+          <head rend="right bold">XXII</head>
+          <lg rend="serif">
+            <l>So werd ich immer harren und verschmachten</l>
+            <l>Die sonne steigt noch · meine fahrt wird schlimm.</l>
+            <l>
+              <pc corresp="#pc1x">»</pc>Gepeinigt wärest du von gleichem trachten</l>
+            <l>Auch wenn ich heut dir sagte: komm und nimm!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Denn du gedeihst in kämpfen die dir ziemen</l>
+            <l>Du weisst dass stets ein linder balsam fliesst</l>
+            <l>Von meinem munde auf die blutigen striemen</l>
+            <l>Doch ist dir niemand der sie dauernd schliesst<pc corresp="#pc2x">«</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>Und die verehrend an mein knie getastet</l>
+            <l>Und die ich lenke mit dem fingerzeig</l>
+            <l>Und deren haupt an meiner brust gerastet?</l>
+            <l>
+              <pc corresp="#pc3x">»</pc>Die jünger lieben doch sind schwach und feig<pc
+                corresp="#pc4x">«</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>So ring ich bis ans end allein? so weil ich</l>
+            <l>Niemals versenkt im arm der treue? sprich<pc corresp="#pc6a">!</pc>
+            </l>
+            <l>
+              <pc corresp="#pc5x">»</pc>Du machst dass ich vor mitleid zittre · freilich</l>
+            <l>Ist keiner der dir bleibt · nur du und ich<pc corresp="#pc6x">«</pc>
+            </l>
+          </lg>
+        </div>
+        <pb facs="#FACS-43" n="36" xml:id="page43"/>
+        <div type="poem">
+          <head rend="left bold">XXIII</head>
+          <lg rend="serif">
+            <l>Wir sind dieselben kinder die erstaunt</l>
+            <l>Vor deinem herrschertritt doch nicht verzagt</l>
+            <l>Uns sammeln wenn ein waffenknecht posaunt</l>
+            <l>Dass in dem freien feld dein banner ragt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wir ziehn zur seite unsres strengen herrn</l>
+            <l>Der sichtend zwischen seine streiter schaut</l>
+            <l>Kein weinen zieht uns ab von unsrem stern</l>
+            <l>Kein arm des freundes und kein kuss der braut.</l>
+          </lg>
+          <lg rend="serif">
+            <l>In seinen blicken lesen wir erfreut</l>
+            <l>Was uns erkannt ist im erhellten traum</l>
+            <l>Ob ehre oder dunklen zug gebeut</l>
+            <l>Sein abgeneigter sein erhobner daum.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Was uns entzückt verherrlicht und befreit</l>
+            <l>Empfangen wir aus seiner hand zum lehn</l>
+            <l>Und winkt er: sind wir stark und stolz bereit</l>
+            <l>Für seinen ruhm in nacht und tod zu gehn.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-44" n="37" xml:id="page44"/>
+        <div type="poem">
+          <head rend="right bold">XXIV</head>
+          <lg rend="serif">
+            <l>Uns die durch viele jahre zum triumfe</l>
+            <l>Des grossen lebens unsre lieder schufen</l>
+            <l>Ist es gebühr mit würde auch die dumpfe</l>
+            <l>Erinnrung an das dunkel vorzurufen:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Das haupt gebettet folgte noch in stummer</l>
+            <l>Ergebung alten ehren siegen straussen ..</l>
+            <l>Blumen der frühen heimat nickten draussen</l>
+            <l>Und luden schaukelnd ein zum langen schlummer.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und jenes lezte schöne bild ist sachte</l>
+            <l>Zurückgesunken in der winde singen.</l>
+            <l>Kein freund war nahe mehr · sie alle gingen<pc corresp="#pc7a" rend="none"/>
+            </l>
+            <l>Nur <emph corresp="#em1a">Er</emph> der niemals wankte blieb und wachte.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Mit der betäubung wein aus seinem sprengel</l>
+            <l>Die dichten schatten der bedrängnis hindernd</l>
+            <l>Des endes schwere scheideblicke lindernd</l>
+            <l>So stand am lager fest und hoch: der engel.</l>
+          </lg>
+        </div>
+      </div>
+      <pb facs="#FACS-45" n="[38]" xml:id="page45"/>
+      <pb facs="#FACS-46" n="[39]" xml:id="page46"/>
+      <div type="section">
+        <head rend="center bold">DER TEPPICH <lb/> DES LEBENS</head>
+        <pb facs="#FACS-47" n="[40]" xml:id="page47"/>
+        <pb facs="#FACS-48" n="[41]" xml:id="page48"/>
+        <pb facs="#FACS-49" n="42" xml:id="page49"/>
+        <div type="poem">
+          <head rend="left bold">DER TEPPICH</head>
+          <lg rend="serif">
+            <l>Hier schlingen menschen mit gewächsen tieren</l>
+            <l>Sich fremd zum bund umrahmt von seidner franze</l>
+            <l>Und blaue sicheln weisse sterne zieren</l>
+            <l>Und queren sie in dem erstarrten tanze.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und kahle linien ziehn in reich-gestickten</l>
+            <l>Und teil um teil ist wirr und gegenwendig</l>
+            <l>Und keiner ahnt das rätsel der verstrickten ..</l>
+            <l>Da eines abends wird das werk lebendig.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Da regen schauernd sich die toten äste</l>
+            <l>Die wesen eng von strich und kreis umspannet</l>
+            <l>Und treten klar vor die geknüpften quäste</l>
+            <l>Die lösung bringend über die ihr sannet!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Sie ist nach willen nicht: ist nicht für jede</l>
+            <l>Gewohne stunde: ist kein schatz der gilde.</l>
+            <l>Sie wird den vielen nie und nie durch rede</l>
+            <l>Sie wird den seltnen selten im gebilde.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-50" n="43" xml:id="page50"/>
+        <div type="poem">
+          <head rend="right bold">URLANDSCHAFT</head>
+          <lg rend="serif">
+            <l>Aus dunklen fichten flog ins blau der aar</l>
+            <l>Und drunten aus der lichtung trat ein paar</l>
+            <l>Von wölfen · schlürften an der flachen flut</l>
+            <l>Bewachten starr und trieben ihre brut.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Drauf huschte aus der glatten nadeln streu</l>
+            <l>Die schar der hinde trank und kehrte scheu</l>
+            <l>Zur waldnacht · eines blieb nur das im ried</l>
+            <l>Sein end erwartend still den rudel mied.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Hier litt das fette gras noch nie die schur</l>
+            <l>Doch lagen stämme · starker arme spur ·</l>
+            <l>Denn drunten dehnte der gefurchte bruch</l>
+            <l>Wo in der scholle zeugendem geruch</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und in der weissen sonnen scharfem glühn</l>
+            <l>Des ackers froh des segens neuer mühn</l>
+            <l>Erzvater grub erzmutter molk</l>
+            <l>Das schicksal nährend für ein ganzes volk.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-51" n="44" xml:id="page51"/>
+        <div type="poem">
+          <head rend="left bold">DER FREUND DER FLUREN</head>
+          <lg rend="serif">
+            <l>Kurz vor dem frührot sieht man in den fähren</l>
+            <l>Ihn schreiten · in der hand die blanke hippe</l>
+            <l>Und wägend greifen in die vollen ähren</l>
+            <l>Die gelben körner prüfend mit der lippe.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dann sieht man zwischen reben ihn mit basten</l>
+            <l>Die losen binden an die starken schäfte</l>
+            <l>Die harten grünen herlinge betasten</l>
+            <l>Und brechen einer ranke überkräfte.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Er schüttelt dann ob er dem wetter trutze</l>
+            <l>Den jungen baum und misst der wolken schieben</l>
+            <l>Er gibt dem liebling einen pfahl zum schutze</l>
+            <l>Und lächelt ihm dem erste früchte trieben.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Er schöpft und giesst mit einem kürbisnapfe</l>
+            <l>Er beugt sich oft die quecken auszuharken</l>
+            <l>Und üppig blühen unter seinem stapfe</l>
+            <l>Und reifend schwellen um ihn die gemarken.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-52" n="45" xml:id="page52"/>
+        <div type="poem">
+          <head rend="right bold">GEWITTER</head>
+          <lg rend="serif">
+            <l>Die irren flämmchen allerwege sind erloschen</l>
+            <l>Ein jäher donner hat die hohe saat gedroschen</l>
+            <l>Der sturm der nacht zerspaltet das geäst im forste</l>
+            <l>Er stört der eber lager und der geier horste.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Der strenge könig sprengt aus seinem wolkenschlosse</l>
+            <l>Er folgt auf goldgeschirrtem pferd mit grossem trosse</l>
+            <l>Der falschen gattin die sich tummelt in den wettern</l>
+            <l>Und preisgegeben ist den zügellosen rettern.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Oft glaubt er mit der rauhen faust sie zu versichern</l>
+            <l>Doch sie entwindet sich mit einem leisen kichern —</l>
+            <l>Bis er sie festet .. zwischen seines gürtels spangen</l>
+            <l>Und dem genick des pferdes ist sie quer gefangen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Bezwungen schluchzend regt sie ihre blanken zähne</l>
+            <l>Und schüttelt zürnend ihre aufgelöste mähne</l>
+            <l>Um ihre nackten glieder spült der schiefe regen</l>
+            <l>Ihr kalter busen sieht gefasst der haft entgegen.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-53" n="46" xml:id="page53"/>
+        <div type="poem">
+          <head rend="left bold">DIE FREMDE</head>
+          <lg rend="serif">
+            <l>Sie kam allein aus fernen gauen</l>
+            <l>Ihr haus umging das volk mit grauen</l>
+            <l>Sie sott und buk und sagte wahr</l>
+            <l>Sie sang im mond mit offenem haar.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Am kirchtag trug sie bunten staat</l>
+            <l>Damit sie oft zur luke trat ..</l>
+            <l>Dann ward ihr lächeln süss und herb</l>
+            <l>Gatten und brüdern zum verderb.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und übers jahr als sie im dunkel</l>
+            <l>Einst attich suchte und ranunkel</l>
+            <l>Da sah man wie sie sank im torf —</l>
+            <l>Und andere schwuren dass vorm dorf</l>
+          </lg>
+          <lg rend="serif">
+            <l>Sie auf dem mitten weg verschwand ..</l>
+            <l>Sie liess das knäblein nur als pfand</l>
+            <l>So schwarz wie nacht so bleich wie lein</l>
+            <l>Das sie gebar im hornungschein.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-54" n="47" xml:id="page54"/>
+        <div type="poem">
+          <head rend="right bold">LÄMMER</head>
+          <lg rend="serif">
+            <l>Zu dunkler schwemme ziehn aus breiter lichtung</l>
+            <l>Nach tagen von erinnerungschwerem dämmer</l>
+            <l>In halbvergessner schönheit fahler dichtung</l>
+            <l>Hin durch die wiesen wellen weisser lämmer.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Lämmer der sonnenlust und mondesschmerzen</l>
+            <l>Ihr keiner ferngeahnten schätze spürer!</l>
+            <l>Lämmer ein wenig leer und eitle herzen</l>
+            <l>Stolz auf die güldnen glocken eurer führer!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Alternde uns! in eurem geiste junge!</l>
+            <l>Lämmer von freuden die für uns erkühlen</l>
+            <l>Lämmer mit schwerem schritt <pc corresp="#pc30" rend="space"/> mit leichtem
+              sprunge</l>
+            <l>Mit einem heut kaum mehr begriffnen fühlen!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Vorsichtige! vor keinen hängen scheue!</l>
+            <l>Lämmer der wolumfriedigten zisternen</l>
+            <l>Lämmer zu alter doch bewährter treue</l>
+            <l>Lämmer der schreckenlosen fernen!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-55" n="48" xml:id="page55"/>
+        <div type="poem">
+          <head rend="left bold">HERZENSDAME</head>
+          <lg rend="serif">
+            <l>In enger gasse winkelreichem düster</l>
+            <l>Lief aus der kirche angsterfüllt der küster</l>
+            <l>Und rief den frommen frauen seiner pfarre</l>
+            <l>Dass jezt das gnadenbild nach oben starre</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dass seine lippen redend offen stünden ..</l>
+            <l>Sie kamen denkend ihrer lezten sünden</l>
+            <l>Sie warfen sich zu boden vor dem wunder —</l>
+            <l>Auch die gerechten zitterten jetzunder.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Es wurde nacht und tief erschauernd wallten</l>
+            <l>Sie aus dem thor .. nur sie in weissen falten</l>
+            <l>Die als die erste kam und deren name</l>
+            <l>Getreue ist und schöne herzensdame</l>
+          </lg>
+          <lg rend="serif">
+            <l>Sie hatte nur das zeichen wahr gesehen</l>
+            <l>Ganz offen war es nur vor ihrem flehen —</l>
+            <l>Sie schritt mit leicht geneigtem haupt in blauer</l>
+            <l>Verzückung und in wunderbarer trauer.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-56" n="49" xml:id="page56"/>
+        <div type="poem">
+          <head rend="right bold">DIE MASKE</head>
+          <lg rend="serif">
+            <l>Hell wogt der saal vom spiel der seidnen puppen.</l>
+            <l>Doch eine barg ihr fieber unterm mehle</l>
+            <l>Und sah umwirbelt von den tollen gruppen</l>
+            <l>Dass nicht mehr viel am aschermittwoch fehle.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Sie schleicht hinaus zum öden park · zum flachen</l>
+            <l>Gestade · winkt noch kurz dem mummenschanze</l>
+            <l>Und beugt sich fröstelnd übers eis .. ein krachen</l>
+            <l>Dann stumme kälte · fern der ruf zum tanze.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Keins von den artigen rittern oder damen</l>
+            <l>Ward sie gewahr bedeckt mit tang und kieseln ..</l>
+            <l>Doch als im frühling sie zum garten kamen</l>
+            <l>Erhob sich oft vom teich ein dumpfes rieseln.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die leichte schar aus scherzendem jahrhundert</l>
+            <l>Vernahm wol dass es drunten seltsam raune ..</l>
+            <l>Nur hat sie sich nicht sehr darob gewundert</l>
+            <l>Sie hielt es einfach für der wellen laune.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-57" n="50" xml:id="page57"/>
+        <div type="poem">
+          <head rend="left bold">DIE VERRUFUNG</head>
+          <lg rend="serif">
+            <l>Geht ein weg noch hinter den weidenstümpfen</l>
+            <l>Wo die halme sich vor dem wetter ducken?</l>
+            <l>Führt dieser fluss dich nicht fort zu den giftigen sümpfen</l>
+            <l>Wo die grünlichen lichter zusammenzucken?</l>
+          </lg>
+          <lg rend="serif">
+            <l>Schlangen erheben sich · ihre verderblichen schlünde</l>
+            <l>Recken entgegen die schnellen und glühenden zungen</l>
+            <l>— Reiter! lebe nur über der einen sünde —</l>
+            <l>Hasse den einen bis dein hass ihn bezwungen!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nur der tote löst dich vom wilden drange</l>
+            <l>Bricht das grollen der erstickenden stimme</l>
+            <l>Kühlt den brand auf der verlezten wange ..</l>
+            <l>Rufe bis er hier vorüber schwimme!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Lippe bleich die keinen zwist mehr schaffe!</l>
+            <l>Arme schlaff die nie mehr schlagen mögen!</l>
+            <l>In dem busen noch die blanke waffe</l>
+            <l>Treibt er durch die hohlen brückenbögen ..</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-58" n="51" xml:id="page58"/>
+        <div type="poem">
+          <head rend="right bold">DER THÄTER</head>
+          <lg rend="serif">
+            <l>Ich lasse mich hin vorm vergessenen fenster: nun thu</l>
+            <l>Die flügel wie immer mir auf und hülle hienieden</l>
+            <l>Du stets mir ersehnte du segnende dämmrung mich zu</l>
+            <l>Heut will ich noch ganz mich ergeben dem lindernden frieden.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Denn morgen beim schrägen der strahlen ist es geschehn</l>
+            <l>Was unentrinnbar in hemmenden stunden mich peinigt</l>
+            <l>Dann werden verfolger als schatten hinter mir stehn</l>
+            <l>Und suchen wird mich die wahllose menge die steinigt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wer niemals am bruder den fleck für den dolchstoss bemass</l>
+            <l>Wie leicht ist sein leben und wie dünn dass gedachte</l>
+            <l>Dem der von des schierlings betäubenden körnern nicht ass!</l>
+            <l>O wüsstet ihr wie ich euch alle ein wenig verachte!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Denn auch ihr freunde redet morgen: so schwand</l>
+            <l>Ein ganzes leben voll hoffnung und ehre hienieden ..</l>
+            <l>Wie wiegt mich heute so mild das entschlummernde land</l>
+            <l>Wie fühl ich sanft um mich des abends frieden!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-59" n="52" xml:id="page59"/>
+        <div type="poem">
+          <head rend="left bold">SCHMERZBRÜDER</head>
+          <lg rend="serif">
+            <l>So zieht ihr im düster und euer geleit</l>
+            <l>Ist lächelnder strahl — ihr die sinkende zeit.</l>
+            <l>Da alles gesagt ist in stummem verein</l>
+            <l>Ihr fühlet gefasst die unwendbare pein:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wer ganz sich verschenkt wie er wenig empfängt</l>
+            <l>Und blühende stirn in die fernen nur drängt.</l>
+            <l>So zieht ihr im düster und euer geleit</l>
+            <l>Ist lächelnder strahl — ihr die sinkende zeit.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und manchmal noch wenn euch ein milderer ton</l>
+            <l>Ein engeres schmiegen wie rührung und lohn</l>
+            <l>Und wenn euch ein deutendes schweigen umfliesst</l>
+            <l>Erscheint es dass leis eine hoffnung euch spriesst:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Mit zitternden armen am busen gepresst</l>
+            <l>So haltet den ziehenden abend ihr fest</l>
+            <l>Ob er für die einzige stunde nun säumt ..</l>
+            <l>Doch euer geleit hat vom morgen geträumt.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-60" n="53" xml:id="page60"/>
+        <div type="poem">
+          <head rend="right bold">DER JÜNGER</head>
+          <lg rend="serif">
+            <l>Ihr sprecht von wonnen die ich nicht begehre</l>
+            <l>In mir die liebe schlägt für meinen Herrn</l>
+            <l>Ihr kennt allein die süsse · ich die hehre ·</l>
+            <l>Ich lebe meinem hehren Herrn.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Mehr als zu jedem werke eurer gilde</l>
+            <l>Bin ich geschickt zum werke meines Herrn</l>
+            <l>Da werd ich gelten · denn mein Herr ist milde</l>
+            <l>Ich diene meinem milden Herrn.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ich weiss in dunkle lande führt die reise</l>
+            <l>Wo viele starben · doch mit meinem Herrn</l>
+            <l>Trotz ich gefahren · denn mein Herr ist weise</l>
+            <l>Ich traue meinem weisen Herrn.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und wenn er allen lohnes mich entblösste:</l>
+            <l>Mein lohn ist in den blicken meines Herrn.</l>
+            <l>Sind andre reicher: ist mein Herr der grösste</l>
+            <l>Ich folge meinem grössten Herrn.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-61" n="54" xml:id="page61"/>
+        <div type="poem">
+          <head rend="left bold">DER ERKORENE</head>
+          <lg rend="serif">
+            <l>Sie grüssen dich laut zur schönern geburt</l>
+            <l>Den dunkel umfing verherrlicht ein schein.</l>
+            <l>Was schwer sich erwirbt ward früh dir bestimmt</l>
+            <l>Dir gaben den preis die meister im lied.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Was huldigt erhöht du nahmest es zag</l>
+            <l>Die stirne geneigt doch froh dir bewusst</l>
+            <l>Wie jeglichem ding in ehrfurcht genaht —</l>
+            <l>So zogest du gern dem leben entlang</l>
+          </lg>
+          <lg rend="serif">
+            <l>Mit prüfendem blick und liebend allein</l>
+            <l>Und griffest nur zu mit lauterer hand</l>
+            <l>In frommer beschau mit rühmlicher scheu:</l>
+            <l>Dem reicheren trieb des edleren tiers.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Was heute dich krönt wird dornige last</l>
+            <l>Dem jemals es welkt · der selbst sich nicht wahrt.</l>
+            <l>Nur wenn du noch ehrst bist du dir noch treu</l>
+            <l>Dann bleibt wie du dir o jüngling der kranz!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-62" n="55" xml:id="page62"/>
+        <div type="poem">
+          <head rend="right bold">DER VERWORFENE</head>
+          <lg rend="serif">
+            <l>Du nahmest alles vor: die schönheit grösse</l>
+            <l>Den ruhm die liebe früh-erhizten sinns</l>
+            <l>Im spiel · und als du sie im leben trafest</l>
+            <l>Erschienen sie verblasst dir nur und schal.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du horchtest ängstlich aus am weg am markte</l>
+            <l>Dass keine dir verborgne regung sei ..</l>
+            <l>In alle seelen einzuschlüpfen gierig</l>
+            <l>Blieb deine eigne unbebaut und öd.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du fandest seltne farben schellen scherben</l>
+            <l>Und warfest sie ins wirre blinde volk</l>
+            <l>Das überschwoll von preis der dich berauschte ..</l>
+            <l>Doch heimlich weinst du — in dir saugt ein gram:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Beschämt und unstät blickst du vor den Reinen</l>
+            <l>Als ob sie in dir läsen .. unwert dir</l>
+            <l>So kamst du wol geschmückt doch nicht geheiligt</l>
+            <l>Und ohne kranz zum grossen lebensfest.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-63" n="56" xml:id="page63"/>
+        <div type="poem">
+          <head rend="left bold">ROM-FAHRER</head>
+          <lg rend="serif">
+            <l>Freut euch dass nie euch fremdes land geworden</l>
+            <l>Der weihe land der väter paradies</l>
+            <l>Das sie erlöst vom nebeltraum im norden</l>
+            <l>Das oft ihr sang mehr als die heimat pries.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dort gaukelt vor euch ein erhabnes ziel</l>
+            <l>Durch duft und rausch in marmor und paneelen</l>
+            <l>Dort lasset ihr vom besten blute viel</l>
+            <l>Und ewig fesselt eure trunknen seelen</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wenn auch verderbenvoll der schöne buhle ..</l>
+            <l>Wie einst die ahnen denen dürftig schien</l>
+            <l>Die kalte treue vor dem fürstenstuhle:</l>
+            <l>Wunder der Welt! und sänger Konradin!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Durch euer sehnen nehmt ihr ewig teil</l>
+            <l>An froher flucht der silbernen galeeren</l>
+            <l>Und selig zitternd werfet ihr das seil</l>
+            <l>Vor königshallen an den azur-meeren.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-64" n="57" xml:id="page64"/>
+        <div type="poem">
+          <head rend="right bold">DAS KLOSTER</head>
+          <lg rend="serif">
+            <l>Mit wenig brüdern flieht die lauten horden</l>
+            <l>Eh eure kraft verwelkt im kalten gift</l>
+            <l>Erbaut nach jungem wunsch das friedensstift</l>
+            <l>In einem stillen tal für euren orden.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Gewiegt von gleicher stunden mildem klang</l>
+            <l>Ist euch der keuschen erde arbeit heilig</l>
+            <l>Der tag verrinnt im wirken siebenteilig</l>
+            <l>Euch und der reinen schar die ich euch dang.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Umschlungen ohne lechzende begierde</l>
+            <l>Gefreundet ohne bangenden verdruss —</l>
+            <l>So flieht im abend schluchzen wort und kuss ..</l>
+            <l>Und solches ist der frommen paare zierde:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Von ebnem leid von ebner lust verzehrt</l>
+            <l>Zur blauen schönheit ihren blick zu richten</l>
+            <l>Geweihtes streben göttlichstes verzichten —</l>
+            <l>Wie einst ein mönch aus Fiesole gelehrt.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-65" n="58" xml:id="page65"/>
+        <div type="poem">
+          <head rend="left bold">WAHRZEICHEN</head>
+          <lg rend="serif">
+            <l>So ist bei euch das los: nach kurzen fristen</l>
+            <l>Der stolzen blüte hausen lichtverächter</l>
+            <l>Mit rohem schwärmen und die vipern nisten.</l>
+            <l>Nur heimlich sind dem zarten keime wächter.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dann sucht der frühen bildner herbe wonnen</l>
+            <l>Und holt euch rates wie sich mut gewinne</l>
+            <l>Vorm keuschen zauber heimischer madonnen</l>
+            <l>Und eurer ganzen schönheit höchster zinne</l>
+          </lg>
+          <lg rend="serif">
+            <l>Holbein dem einzigen .. im rauhen sturme</l>
+            <l>Beschüzt die glorienschar vom Rhein und Maine ..</l>
+            <l>Und dorrt das land vom unfruchtbaren wurme:</l>
+            <l>Das heiligtum steht unberührt im haine.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Bescheidet euch mit alten leidensregeln!</l>
+            <l>Der glanz der war bringt wenn auch späte spende</l>
+            <l>Die geister kehren stets mit vollen segeln</l>
+            <l>Zurück ins land des traums und der legende.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-66" n="59" xml:id="page66"/>
+        <div type="poem">
+          <head rend="right bold">JEAN PAUL</head>
+          <lg rend="serif">
+            <l>Wenn uns Stets-wandrern und die heimat schmälend</l>
+            <l>Zu ihr die liebe schönerer nachbar würgt</l>
+            <l>So rufst du uns zurück — verlockend quälend</l>
+            <l>Du voll vom drange der den Gott verbürgt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>In dir nur sind wir ganz: so wirkt kein weiser</l>
+            <l>Der grauen gaue zwischen meer und kolk ..</l>
+            <l>Du sehnenvoll des heitren südens preiser —</l>
+            <l>Wie unser breites etwas schlaffes volk</l>
+          </lg>
+          <lg rend="serif">
+            <l>In trübem dämmer bergend stahl und zunder</l>
+            <l>Draus gluten fahren grell und schillernd mild</l>
+            <l>Du bist der führer in dem wald der wunder</l>
+            <l>Und herr und kind in unsrem saatgefild.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du regst den matten geist mit sternenflören</l>
+            <l>Dann bettest du den wahn auf weichem pfühl ..</l>
+            <l>Goldharfe in erhabnen himmels-chören</l>
+            <l>Flöte von Maiental und Blumenbühl!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-67" n="60" xml:id="page67"/>
+        <div type="poem">
+          <head rend="left bold">STANDBILDER · DIE BEIDEN ERSTEN</head>
+          <lg rend="serif">
+            <l>Im maasse mit der landschaft wuchs dein haus</l>
+            <l>Nicht höher als der nahe baum es sinnt.</l>
+            <l>Hier weihen töchter dir ihr reines haar</l>
+            <l>Und söhne schliessen glühend grossen bund.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du siehst in blauer klarheit deine schar</l>
+            <l>Stets für dein heiter tiefes fest bereit</l>
+            <l>Die ihres leibes froh und seiner lust</l>
+            <l>Und stolz und lächelnd zwischen blüten geht. —</l>
+          </lg>
+          <lg rend="serif">
+            <l>In wolkige nebel deuten deine türme</l>
+            <l>Beflügelt floh der geist die schwere scholle</l>
+            <l>Der körper muss zermalmt zum himmel streben</l>
+            <l>Der spröde stein in immer zartern rosen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wenn dein kasteiter über-spitzer finger</l>
+            <l>Sich faltet weiss dein weit erhobnes auge</l>
+            <l>Dass sich im frommen rausch die kniee lösen</l>
+            <l>Das ganze volk vorm wunder schluchzt und zittert.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-68" n="61" xml:id="page68"/>
+        <div type="poem">
+          <head rend="right bold">STANDBILDER · DAS DRITTE</head>
+          <lg rend="serif">
+            <l>Wie dacht ich dich mir schön · verhüllte frau!</l>
+            <l>Von welchem zauber dass du durch jedweden</l>
+            <l>Betrübten tag hindurch noch an ein eden</l>
+            <l>Den glauben wecktest hinter berg und bau!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Hat oft das allzu träge blut gestockt</l>
+            <l>Wie wusstest du mit einem blitz die untern</l>
+            <l>Die müden kranken irren zu ermuntern!</l>
+            <l>Wie ist die macht die stets uns fürder lockt ..</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du kind bemerktest nie: was euch befahl</l>
+            <l>So fortzuschreiten sei nur not und schauer ..</l>
+            <l>Sie färbten dir die fernen hügel blauer</l>
+            <l>Und qualen löst ich meist mit frischer qual.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Da du nicht länger säumen magst so heb</l>
+            <l>Die hülle — sie wird jezt dir nicht mehr frommen ..</l>
+            <l>Nun sieh was du die jahre hin genommen</l>
+            <l>Für demant-tüpfel schimmernd durchs geweb<pc corresp="#pcf1">!</pc>
+            </l>
+          </lg>
+        </div>
+        <pb facs="#FACS-69" n="62" xml:id="page69"/>
+        <div type="poem">
+          <head rend="left bold">STANDBILDER · DAS VIERTE</head>
+          <lg rend="serif">
+            <l>Wenn heut sie naht mit würdig festem gange</l>
+            <l>Und strengem blick trifft sie nicht mehr enteiler —</l>
+            <l>Ihr ist nun auch im marmorbau ein pfeiler</l>
+            <l>Und beter beugen wir uns edlem zwange.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Denn früher schauderten wir ihr zu dienen</l>
+            <l>Gespielen! weisst du? Zweig von fremdem stamme</l>
+            <l>Du Kuss der dämmerung! du des morgens Flamme!</l>
+            <l>Sobald sie mit den starren kalten mienen</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die bucht betrat wo unsre reigen schwangen</l>
+            <l>So rafften wir soviel vom farbigen tande</l>
+            <l>Als lustverwöhnte arme nur umschlangen</l>
+            <l>Und stiessen ab vom heimgesuchten strande</l>
+          </lg>
+          <lg rend="serif">
+            <l>Mit unsrern überquellend vollen kahne</l>
+            <l>Mit wimpel sang und klang mit frau und knabe</l>
+            <l>Aufs helle meer wo sich für unsre habe</l>
+            <l>Der weg zum nächsten frohen eiland bahne!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-70" n="63" xml:id="page70"/>
+        <div type="poem">
+          <head rend="right bold">STANDBILDER · DAS FÜNFTE</head>
+          <lg rend="serif">
+            <l>Ich bin es einzig die auch euch die klugen</l>
+            <l>Zur irre reisst · wenn meine lider schlugen</l>
+            <l>Sind eure festen bauten mürb und öd</l>
+            <l>Ihr ziehet hinter mir wie kinder blöd.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Euch selber fremd seid ihr nur meine knechte</l>
+            <l>Vergesset eure thaten wünsche rechte ..</l>
+            <l>Ihr traget meine qual und nennt kein wie</l>
+            <l>Ein göttlich rasen zwinget euch ins knie.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Erfind ich euch die grausamsten gesetze</l>
+            <l>Dass keinen meiner lippe süsse letze</l>
+            <l>Der eine gunst genoss in meinem schoss<pc corresp="#pc9h">:</pc>
+            </l>
+            <l>Ihr fraget nicht .. ihr glaubt und duldet bloss.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ich bins die eure engen himmel ändert</l>
+            <l>Einmal in weite blut- und strahlumrändert ..</l>
+            <l>Dass euch der abgrund hallt wie schwacher schrei</l>
+            <l>Und todes fluch wie klingen der schalmei.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-71" n="64" xml:id="page71"/>
+        <div type="poem">
+          <head rend="left bold">STANDBILDER · DAS SECHSTE</head>
+          <lg rend="serif">
+            <l>Dreh ich in meinen händen die rötlichen urnen</l>
+            <l>Dann spähe ich durch den rest der verwitterten krust</l>
+            <l>Glieder der stattlichen die in kämpfen turnen</l>
+            <l>Spiele der badenden und ihre lust.</l>
+          </lg>
+          <lg rend="serif">
+            <l>An den engeln mit quälendem glanze verglast</l>
+            <l>Such ich die pochenden adern und drängenden rippen</l>
+            <l>Brenne von gluten die in ihren bildnern gerast</l>
+            <l>Heiligen marmor befeuchten die frevelnden lippen.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Angst und verlangen erwecken die klingenden namen</l>
+            <l>Prächtiger fürsten und führer in gold und rubin —</l>
+            <l>Ihre köpfe beschaun mich aus rissigem rahmen</l>
+            <l>In ihrem silbrigen dunkel und blassen karmin ..</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und ich frage: wie hat dieser haare zier</l>
+            <l>Und dieses blickes die früheren wesen umzingelt!</l>
+            <l>Wie dieser mund hier geküsst zu dem die begier</l>
+            <l>Sinnlos hinan als rauch ohne flamme sich ringelt!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-72" n="65" xml:id="page72"/>
+        <div type="poem">
+          <head rend="right bold">DER SCHLEIER · DAS SIEBENTE</head>
+          <lg rend="serif">
+            <l>Ich werf ihn so: und wundernd halten inne</l>
+            <l>Die auf dem heimischen baumfeld früchte kosten<pc corresp="#pc5z">. .</pc>
+            </l>
+            <l>Die ferne flammt und eine stadt vom Osten</l>
+            <l>Enttaucht im nu mit kuppel zelt und zinne.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Einst flog er so empor: und öde schranken</l>
+            <l>Der häuser blinkten scheinhaft durch die nässe</l>
+            <l>Es regte sich die welt in silberblässe —</l>
+            <l>Am vollen mittag mondlicht der gedanken!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Er wogt und weht: und diese sind wie hirten</l>
+            <l>Der ersten thale · jene mädchen gleiten</l>
+            <l>Wie sie die einst im rausch der Göttin weihten ..</l>
+            <l>Dies paar ist wie ein schatten unter mirten.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und so gewirbelt: ziehen sie zu zehnen</l>
+            <l>Durch dein gewohntes thor wie sonnenkinder —</l>
+            <l>Der langen lust · des leichten glückes finder ..</l>
+            <l>So wie mein schleier spielt wird euer sehnen!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-73" n="[66]" xml:id="page73"/>
+      </div>
+      <pb facs="#FACS-74" n="[67]" xml:id="page74"/>
+      <div type="section">
+        <head rend="center bold">DIE LIEDER VON<lb/>TRAUM UND TOD</head>
+        <pb facs="#FACS-75" n="[68]" xml:id="page75"/>
+        <pb facs="#FACS-76" n="[69]" xml:id="page76"/>
+        <pb facs="#FACS-77" n="70" xml:id="page77"/>
+        <div type="poem">
+          <head rend="left">
+            <hi rend="bold">BLAUE STUNDE</hi>
+            <lb/>
+            <hi rend="serif">AN REINHOLD UND SABINE LEPSIUS</hi>
+          </head>
+          <lg rend="serif">
+            <l>
+              <space/>Sieh diese blaue stunde</l>
+            <l>Entschweben hinterm gartenzelt!</l>
+            <l>
+              <space/>Sie brachte frohe funde</l>
+            <l>Für bleiche schwestern ein entgelt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Erregt und gross und heiter</l>
+            <l>So eilt sie mit den wolken — sieh!</l>
+            <l>
+              <space/>Ein opfer loher scheiter.</l>
+            <l>Sie sagt verglüht was sie verlieh.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Dass sie so schnell nicht zögen</l>
+            <l>So sinnen wir · nur ihr geweiht —</l>
+            <l>
+              <space/>Spannt auch schon seine bögen</l>
+            <l>Ein dunkel reicher lustbarkeit.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Wie eine tiefe weise</l>
+            <l>Die uns gejubelt und gestöhnt</l>
+            <l>
+              <space/>In neuem paradeise</l>
+            <l>Noch lockt und rührt wenn schon vertönt.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-78" n="71" xml:id="page78"/>
+        <div type="poem">
+          <head rend="right">
+            <hi rend="bold">DÜNENHAUS</hi>
+            <lb/>
+            <hi rend="serif">AN ALBERT UND KITTY VERWEY</hi>
+          </head>
+          <lg rend="serif">
+            <l>Ist ein dach noch das so tiefen friedens</l>
+            <l>Freien stolzes neben solcher fülle —</l>
+            <l>
+              <space/>Düster-mütigen starren gast</l>
+            <l>
+              <space/>Lud und hielt und fern oft winkte?</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wo ihr gern erforscht wann meine seele</l>
+            <l>Euch umarmt · wann ihr sie ewig fliehet</l>
+            <l>
+              <space/>Sinnend wenn die schatten weich</l>
+            <l>
+              <space/>Abends über Holland sinken ..</l>
+          </lg>
+          <lg rend="serif">
+            <l>Milde reden schmeicheln in den binsen</l>
+            <l>Zu der wellen schlag · doch starke stimmen</l>
+            <l>
+              <space/>Lauern immer · wenn ihr ton</l>
+            <l>
+              <space/>Rauscht im frischen meereswinde</l>
+          </lg>
+          <lg rend="serif">
+            <l>Schont Er keine trauer · schiffe pfeifen</l>
+            <l>Städte sind voll lust und kampf: <pc corresp="#pc7x">»</pc>so irrte</l>
+            <l>
+              <space/>Sonnensohn an wolken hin</l>
+            <l>
+              <space/>Starb im rasen nach dem glücke<pc corresp="#pc8x">«</pc>
+            </l>
+          </lg>
+        </div>
+        <pb facs="#FACS-79" n="72" xml:id="page79"/>
+        <div type="poem">
+          <head rend="left bold">EIN KNABE DER MIR VON HERBST <lb/>UND ABEND SANG:<lb/>I</head>
+          <head rend="right serif">AN CYRIL MEIR SCOTT</head>
+          <lg rend="serif">
+            <l>Sie die in träumen lebten sehen wach</l>
+            <l>Den abglanz jener pracht die sie verliessen</l>
+            <l>Um gram und erde · und sie weinen stille</l>
+            <l>Die stunden füllend mit erinnerung</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ans blaue ufer wo mit sanftem tritt</l>
+            <l>Goldflügel-kinder wandeln und die müden</l>
+            <l>Vom kerker eben freien seelen grüssen</l>
+            <l>Die noch verwirrt die blöden blicke drehn</l>
+          </lg>
+          <lg rend="serif">
+            <l>In dem erstaunend hellen wunderland ..</l>
+            <l>So helft euch aus der wahrheit — mitgefangene!</l>
+            <l>Es bleibt für euch noch eines lächelns schatten</l>
+            <l>Wenn euer beider leben auch gebannt</l>
+          </lg>
+          <lg rend="serif">
+            <l>Jezt wieder schmachten muss in grabesluft.</l>
+            <l>Ein flüchtiger blick in euren gittern zündend</l>
+            <l>Belebt die hoffnung eurer engen wüste ..</l>
+            <l>Und bleich und plötzlich küsst ein strahl dein haar.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-80" n="73" xml:id="page80"/>
+        <div type="poem">
+          <head rend="right bold">II</head>
+          <lg rend="serif">
+            <l>Ihr kündigtet dem Gott von einst die liebe —</l>
+            <l>Nun zeigt er sich mit rachevoller braue:</l>
+            <l>Ihr nanntet joch mein kostbares gesetz</l>
+            <l>Ihr lasst mein haus zu beugungen zu stolz.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Neigt ihr euch jezt nicht schmählicherem dienste<pc corresp="#pc4y">?</pc>
+            </l>
+            <l>Ermattet er nicht die gewundnen arme</l>
+            <l>Mehr als die klanges-kette die ihr bracht?</l>
+            <l>Ruft ihr nach gnade nicht und wacht und weint?</l>
+          </lg>
+          <lg rend="serif">
+            <l>Ja wie wir einst voll demut und verlangen</l>
+            <l>Uns zu des Heilands blutigen füssen bückten</l>
+            <l>So knien wir huldigend dem neuen Gott</l>
+            <l>Und zittern und verzückung wie zuvor</l>
+          </lg>
+          <lg rend="serif">
+            <l>Erhöhen uns doch andere rnitgefühle</l>
+            <l>Verzehrender und weniger verzichtend</l>
+            <l>Wenn schweres licht des beter-abends sinkt</l>
+            <l>In gold und purpurscheiben unsres doms.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-81" n="74" xml:id="page81"/>
+        <div type="poem">
+          <head rend="left bold">III</head>
+          <lg rend="serif">
+            <l>Ich stand im sommer wartend · mit erbleichen</l>
+            <l>Seh ich nun schon das scharlach-banner wehen</l>
+            <l>Es winkt dem tanz der ernter mit dem grabe</l>
+            <l>Mit ungepflückter frucht zerzaust vom sturme.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nun schwindet mir der sorgenlosen glaube</l>
+            <l>Nun eil ich in der kargen frist und pflücke</l>
+            <l>Von dem was blieb und binde laub und blumen</l>
+            <l>Halbwelke wunder meiner grames-hand.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die hand mit widmender verehrung hebt</l>
+            <l>Beschämt empor dir die verstreuten gaben —</l>
+            <l>So wenig von erträumter pracht ein zeichen</l>
+            <l>Wenn auch von mancher seltnen träne leuchtend ..</l>
+          </lg>
+          <lg rend="serif">
+            <l>So wenig eine wahl von edelsteinen</l>
+            <l>Die ich dir vom geschick erobern wollte</l>
+            <l>Als je die mär von flammen-hass und -liebe</l>
+            <l>Kund wird durch diese brechend leise stimme.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-82" n="75" xml:id="page82"/>
+        <div type="poem">
+          <head rend="right">
+            <hi rend="bold">JULI-SCHWERMUT</hi>
+            <lb/>
+            <hi rend="serif">AN ERNEST DOWSON</hi>
+          </head>
+          <lg rend="serif">
+            <l>
+              <space/>Blumen des sommers duftet ihr noch so reich:</l>
+            <l>
+              <space/>Ackerwinde im herben saatgeruch</l>
+            <l>Du ziehst mich nach am dorrenden geländer</l>
+            <l>Mir ward der stolzen gärten sesam fremd.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Aus dem vergessen lockst du träume: das kind</l>
+            <l>
+              <space/>Auf keuscher scholle rastend des ährengefilds</l>
+            <l>In ernte-gluten neben nackten schnittern</l>
+            <l>Bei blanker sichel und versiegtem krug.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Schläfrig schaukelten wespen im mittagslied</l>
+            <l>
+              <space/>Und ihm träufelten auf die gerötete stirn</l>
+            <l>Durch schwachen schutz der halme-schatten</l>
+            <l>Des mohnes blätter: breite tropfen blut.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Nichts was mir je war raubt die vergänglichkeit.</l>
+            <l>
+              <space/>Schmachtend wie damals lieg ich in schmachtender flur</l>
+            <l>Aus mattem munde murmelt es: wie bin ich</l>
+            <l>Der blumen müd · der schönen blumen müd!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-83" n="76" xml:id="page83"/>
+        <div type="poem">
+          <head rend="left">
+            <hi rend="bold">FELD VOR ROM</hi>
+            <lb/>
+            <hi rend="serif">AN LUDWIG HOFMANN</hi>
+          </head>
+          <lg rend="serif">
+            <l>Von höhen maassen wir die abendgegend</l>
+            <l>Der welten trümmer sich im glanze regend</l>
+            <l>Wir treten in die fluren öd und streng</l>
+            <l>Von nah und fern ein hauch macht bang und eng.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Denn mussten wir vor aufgehäuftem prunke</l>
+            <l>Vor grosser gruft glorreichem säulenstrunke</l>
+            <l>Weniger weinen? und was war uns seit</l>
+            <l>Der kronen zier <pc corresp="#pc0y">·</pc> der völker herrlichkeit!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wir fühlen scheidend: säen oder roden</l>
+            <l>Verwehrt den schmerzlichen der stolze boden ..</l>
+            <l>Sieh! weit in wolken schein des ewigen tors</l>
+            <l>Und blut- und veilchenfalten eines flors</l>
+          </lg>
+          <lg rend="serif">
+            <l>Auf wehem grün der welligen ebne fliegend</l>
+            <l>Frascati bleicher an den berg sich schmiegend ..</l>
+            <l>Noch einmal halt an diesem hügel still</l>
+            <l>Pflückend die schattenlilie asphodill.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-84" n="77" xml:id="page84"/>
+        <div type="poem">
+          <head rend="right">
+            <hi rend="bold">SÜDLICHE BUCHT</hi>
+            <lb/>
+            <hi rend="serif">AN LUDWIG HOFMANN</hi>
+          </head>
+          <lg rend="serif">
+            <l>An grünen klippen laden selige gärten</l>
+            <l>Wo blumen sich mit blauen wogen mengen</l>
+            <l>Und frühe winde zart und glühend sprengen</l>
+            <l>Um den Gebundnen die metallnen härten.</l>
+          </lg>
+          <lg rend="serif">
+            <l>In lila-himmel streuen berge funken —</l>
+            <l>Hier lockt die dämmerung der saffirgrotte</l>
+            <l>Dort in verklärte fernen zieht die flotte ..</l>
+            <l>Ihn hat ein schauer jung geküsst und trunken</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dass er berührt vom spiel gewiegter hüfte</l>
+            <l>Den einen namen seufze sage singe ..</l>
+            <l>Und starker odem in dem zauberringe</l>
+            <l>Wie wein und honig meer und tempelgrüfte</l>
+          </lg>
+          <lg rend="serif">
+            <l>Hat ihm in traumes ruhe-reich verholfen ..</l>
+            <l>Wo er in lied und segen der zipresse</l>
+            <l>Sein kaltes land und steiles werk vergesse</l>
+            <l>Langsam sich lösend vor den purpurgolfen.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-85" n="78" xml:id="page85"/>
+        <div type="poem">
+          <head rend="left">
+            <hi rend="bold">WINTERWENDE</hi>
+            <lb/>
+            <hi rend="serif">AN CLEMENS FRANCKENSTEIN</hi>
+          </head>
+          <lg rend="serif">
+            <l>Ist von mond — von sonne dieser glanz?</l>
+            <l>Auf verstorbne wege von Byzanz</l>
+            <l>Bricht er schaudernd flammt er grell</l>
+            <l>Hain und halle macht er hell.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Spiegelt eine flur von freuden vor</l>
+            <l>Euch verwaisten gängern bei dem tor</l>
+            <l>Dass ihr staunt und weint und euch vergesst</l>
+            <l>Lippe an lippe stumm gepresst.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Welch ein wunder in dem dürren jahr!</l>
+            <l>Mögt ihr nie an einer totenbahr</l>
+            <l>Mögt ihr nie im raume kalt und klein</l>
+            <l>Dies vergessen diesem ferne sein!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Eure blicke thaten-wach und kühn</l>
+            <l>Die bis tief hinein ins dunkel sprühn</l>
+            <l>Scheidend ahnen sie und mahnen sie:</l>
+            <l>Solch ein strahl erbleicht uns nie ..</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-86" n="79" xml:id="page86"/>
+        <div type="poem">
+          <head rend="right">
+            <hi rend="bold">DEN BRÜDERN</hi>
+            <lb/>
+            <hi rend="serif">AN LEOPOLD ANDRIAN</hi>
+          </head>
+          <lg rend="serif">
+            <l>Als unsre schnelle jugend noch nicht wählte</l>
+            <l>Im edlen preisen und verwerfen gleich</l>
+            <l>War unsre liebe für das viel geschmälte</l>
+            <l>Für unser: euer sieches Oesterreich.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wir — wie ihr — zeigten glücklichern barbaren</l>
+            <l>Dass höchster stolz ein schönes sterben sei ..</l>
+            <l>Bis wir bemerkt wie sehr wir lebend waren</l>
+            <l>Da schlossen wir uns stärkern trieben bei.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Vernahmen vor uns reiche fülle kreissen</l>
+            <l>Und frische wünsche traten uns zunächst ..</l>
+            <l>Da wollten wir euch freundlich an uns reissen</l>
+            <l>Mit dem was auch in euch noch keimt und wächst.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Denn dazu lieben wir zu sehr euch brüder</l>
+            <l>Um zu geniessen nur als spiel und klang</l>
+            <l>An euch die schwanke schönheit grabes-müder</l>
+            <l>An euch den farbenvollen untergang.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-87" n="80" xml:id="page87"/>
+        <div type="poem">
+          <head rend="left">
+            <hi rend="bold">DIE EBENE</hi>
+            <lb/>
+            <hi rend="serif">AN CARL AUGUST KLEIN</hi>
+          </head>
+          <lg rend="serif">
+            <l>
+              <space/>Silberne himmelsferne spannt</l>
+            <l>Ueber der endlosigkeit deiner ruhenden ebene.</l>
+            <l>Suchest du sinnend darin das uns beiden gegebene</l>
+            <l>
+              <space/>Zwischen den furchen seit jahren verkannt?</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Unter der weiden frühem erblühn</l>
+            <l>Horchen die kinder entzückt einer scherzenden flöte</l>
+            <l>In die veilchenwolkige blendende röte</l>
+            <l>
+              <space/>Hüpfen und tanzen sie hoffend und kühn.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Greisin kehrte sich von dem schimmernden tand</l>
+            <l>Zu dem gemilderten glanze der fichten drüben</l>
+            <l>An den beglückenden gräbern die treue zu üben —</l>
+            <l>
+              <space/>Ahndevoll raunt sie vom anderen land.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Und — denen flitternde hülle wol riss</l>
+            <l>Aber wie wir noch von irdischen wünschen genährte</l>
+            <l>Suchst du im bilde sie? fürchtest du · bleicher gefährte ·</l>
+            <l>
+              <space/>Unsren zug zur finsternis?</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-88" n="81" xml:id="page88"/>
+        <div type="poem">
+          <head rend="right">
+            <hi rend="bold">FAHRT-ENDE</hi>
+            <lb/>
+            <hi rend="serif">AN RICHARD PERLS</hi>
+          </head>
+          <lg rend="serif">
+            <l>Wir schritten redend auf den tempeldielen</l>
+            <l>Du klagend über siecher welten fäule</l>
+            <l>Ich sah ein kämpferfeld mit weiten zielen</l>
+            <l>Und stand ein jüngling herrisch an der säule.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du hörtest staunend mich nach langem wandern</l>
+            <l>Noch schwärmen für das unverlierbar Stete</l>
+            <l>An weichen nebel-abenden in Flandern</l>
+            <l>Wo brünstig flammen zucken durch gebete.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dann liess ich dich zu maasslosen Titanen</l>
+            <l>Und einsam steigen zu den grausen Müttern.</l>
+            <l>Ich hasste die vergeblich dunklen bahnen ..</l>
+            <l>Nun deine trauerboten mich erschüttern</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wall ich verträumt wohin du gern entflohest</l>
+            <l>Zu grüner nacht der schaurigen pagode</l>
+            <l>Des nicht-mehr-suchens nicht-mehr-tuns: so drohest</l>
+            <l>Als überwinder du bei deinem tode.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-89" n="82" xml:id="page89"/>
+        <div type="poem">
+          <head rend="right bold">GARTENFRÜHLINGE</head>
+          <lg rend="serif">
+            <l>
+              <space/>Schimmer aus lichtgoldnem blatte</l>
+            <l>
+              <space/>Treibt aus dem waldigen finster ..</l>
+            <l>
+              <space/>Dass die bescheidene ginster</l>
+            <l>
+              <space/>Ruhe der trauer beschatte!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nah in den gärten duften die mandeln</l>
+            <l>Dort sah ich augen voll glut und traum</l>
+            <l>Ich will die gärten wieder durchwandeln</l>
+            <l>Hände baden im blumigen flaum.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Seltnerer vögel gefieder</l>
+            <l>
+              <space/>Büsche in zierlichen kegeln<pc corresp="#pc001"/>!</l>
+            <l>
+              <space/>Trunkene falter segeln</l>
+            <l>
+              <space/>Reicher ertönen dort lieder.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Kostbarer wie sie die quelle verstreut</l>
+            <l>Schmächtigem springbrunn funken entstieben ..</l>
+            <l>Werden sie leuchten leuchten mir heut?</l>
+            <l>Werd ich die süssen traum-augen lieben?</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-90" n="83" xml:id="page90"/>
+        <div type="poem">
+          <head rend="right bold">MORGENSCHAUER</head>
+          <lg rend="serif">
+            <l>
+              <space/>Lässt solch ein schmerz sich nieten</l>
+            <l>Und solch ein hauch und solch ein licht?</l>
+            <l>
+              <space/>Der morgen sich gebieten</l>
+            <l>Der fremd und selig in uns bricht?</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Wie durch die seele zogen</l>
+            <l>Die pfade — dann durch das gefild.</l>
+            <l>
+              <space/>Gelinde düfte sogen</l>
+            <l>Dann gossen sie sich schnell und wild.</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Trüb wie durch tränen schwimmen</l>
+            <l>Der baum · das haus das uns empfängt.</l>
+            <l>
+              <space/>Ein weisses festtag-glimmen</l>
+            <l>Der kirschenzweig der überhängt</l>
+          </lg>
+          <lg rend="serif">
+            <l>
+              <space/>Ein rauschendes geflitter</l>
+            <l>Entzückt und quält — macht schwer und frei.</l>
+            <l>
+              <space/>Ein schwanken süss und bitter</l>
+            <l>Ein singen sonder melodei ..</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-91" n="84" xml:id="page91"/>
+        <div type="poem">
+          <head rend="left bold">DAS POCHEN</head>
+          <lg rend="serif">
+            <l>Dies pochen sagt uns was wir liessen</l>
+            <l>Das an der leeren stätte quillt</l>
+            <l>Wo unsre freude scheidend winkte.</l>
+            <l>Nicht stunde mehr nicht weg mehr gilt!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wie wir im schlafe wandelnd irren!</l>
+            <l>Wie es bei allen worten schrillt</l>
+            <l>Die uns gleich ihren lezten klingen!</l>
+            <l>Wie jeder stein uns nun vergilt</l>
+          </lg>
+          <lg rend="serif">
+            <l>Dass wir solang nur uns erblickten ..</l>
+            <l>Wie es im raum beklemmt und schwillt</l>
+            <l>Den dingen nahe die sie liebte ..</l>
+            <l>Wie wir zu bannen wol gewillt</l>
+          </lg>
+          <lg rend="serif">
+            <l>— Weil um die sucht so kleinen zieles</l>
+            <l>Die ernste tat uns fragt und schilt —</l>
+            <l>Doch diesem pochen nicht gebieten</l>
+            <l>Das erst die wehmut langsam stillt!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-92" n="85" xml:id="page92"/>
+        <div type="poem">
+          <head rend="right bold">LACHENDE HERZEN ..</head>
+          <lg rend="serif">
+            <l>Lachende herzen die ihr die freude schauet</l>
+            <l>Als ein mädchen von wolken herniederwandelnd</l>
+            <l>Gaben verteilend um die ihr als einziges werbet</l>
+            <l>Wachsender hoffnung von einem zum andern fest:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die ihr die lieblichsten sonnenstrahlen vereinet</l>
+            <l>Auf der zartblumigen wangen gerötetem schmelze</l>
+            <l>Dunkle tage verschmerzend als kurze busse</l>
+            <l>Schwere gedanken verbietet anmutig flehend:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Tanzende herzen die ich bewundre und suche</l>
+            <l>Gern mich erniedernd dass ich eure bälle nicht hemme</l>
+            <l>Die ihr mich rühret ihr leichten — und ganz erfüllet</l>
+            <l>Die ich verehre dass selber ihr lächelnd erstaunet:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Die ihr mich schlinget in euren geselligen reigen</l>
+            <l>Nimmer es wisst wie nur meine verkleidung euch ähnelt</l>
+            <l>Spielende herzen die ihr als freund mich umfanget:</l>
+            <l>Wie seid ihr ferne von meinem pochenden herzen!</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-93" n="86" xml:id="page93"/>
+        <div type="poem">
+          <head rend="left bold">FLUTUNGEN</head>
+          <lg rend="serif">
+            <l>Erst ging sie voll und litt an zu viel licht.</l>
+            <l>Der gaben schatz den huldigung ihr bot</l>
+            <l>Erwog sie kaum und misste oft das glück</l>
+            <l>Im starren stolz der jugend die nicht spricht.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Sie wuchs sie zog hinaus und sie umwarb</l>
+            <l>Was nun entrann · sie sah mit heissem wunsch</l>
+            <l>Den lebenden die sie nicht liebten nach</l>
+            <l>Den toten all von ihr noch ungeliebt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Da stand sie einst mit ihrem schmerz · der schien</l>
+            <l>Ihr leicht und leer · sie blickte prüfend um</l>
+            <l>Und fröstelte · so sagt dem blinden kind</l>
+            <l>Die kühle an dass schon der abend kam.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nun reisst und rinnt von neuem früheres weh</l>
+            <l>Ihr ist wie sonst dass jede fiber fühlt ..</l>
+            <l>Dass vieles ging · nur gleich im wechsel blieb</l>
+            <l>Was sie ergreift was sie noch immer sucht.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-94" n="87" xml:id="page94"/>
+        <div type="poem">
+          <head rend="right bold">TAG-GESANG</head>
+          <head rend="left bold">I</head>
+          <lg rend="serif">
+            <l>So begannst du mein tag:</l>
+            <l>Von verheissungen voll</l>
+            <l>Aus dem kindlichen tale</l>
+            <l>Ein jauchzen erscholl.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Du ergingst dich in strahlen</l>
+            <l>Bekränzt und erlaucht</l>
+            <l>Hast dein schimmerndes haar</l>
+            <l>Dann in blüten getaucht.</l>
+          </lg>
+          <lg rend="serif">
+            <l>In umschwärmendem chor</l>
+            <l>Und in zitternder jagd</l>
+            <l>Nach den wiesen die woge</l>
+            <l>Nach silber smaragd</l>
+          </lg>
+          <lg rend="serif">
+            <l>So folgen dir froh</l>
+            <l>Die dein lächeln erkürt ..</l>
+            <l>O mein tag mir so gross</l>
+            <l>Und so schnell mir entführt<pc corresp="#pc0011">!</pc>
+            </l>
+          </lg>
+        </div>
+        <pb facs="#FACS-95" n="88" xml:id="page95"/>
+        <div type="poem">
+          <head rend="left bold">II</head>
+          <lg rend="serif">
+            <l>Bewältigt vom rausche noch</l>
+            <l>
+              <space/>sah ich ihm nach</l>
+            <l>Er wandte sich dem der ihn</l>
+            <l>
+              <space/>liebend besprach.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Mein lob sich auf fittichen</l>
+            <l>
+              <space/>hin zu ihm schwang</l>
+            <l>Bis ganz ihn im westen</l>
+            <l>
+              <space/>die wolke umschlang.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Um wen soll ich werben mit</l>
+            <l>
+              <space/>minderem hall</l>
+            <l>Da nichts wie Er gross ist und</l>
+            <l>
+              <space/>nichts wie Er all!</l>
+          </lg>
+          <lg rend="serif">
+            <l>So schritt ich vertrauert und</l>
+            <l>
+              <space/>horchte mit fleiss</l>
+            <l>Zu schluchten gebeugt auf ihr</l>
+            <l>
+              <space/>dunkles geheiss.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-96" n="89" xml:id="page96"/>
+        <div type="poem">
+          <head rend="right bold">III</head>
+          <lg rend="serif">
+            <l>An dem wasser das uns fern klagt</l>
+            <l>Wo die pappel sich lind wiegt</l>
+            <l>Sizt ein vogel der uns gern fragt</l>
+            <l>Der im laube sich dem wind schmiegt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und der vogel spielt leis auf:</l>
+            <l>Flur und garten sind vom blühn tot</l>
+            <l>Jedes weiss sich schön im kreislauf<pc corresp="#pc00111">.</pc>
+            </l>
+            <l>Sieh die gipfel vor dir glühn rot!</l>
+          </lg>
+          <lg rend="serif">
+            <l>Nur erinnrung lässt als traumsold</l>
+            <l>Der zu glücklichern seinen zug lenkt</l>
+            <l>Seiner hand entrieselt traumgold</l>
+            <l>Das er früh und nur im flug schenkt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Heb das haupt das sich bang neigt</l>
+            <l>Ob aus tiefen ein gesicht winkt —</l>
+            <l>Und so warte bis mein sang schweigt</l>
+            <l>Und so bleibe bis das licht sinkt.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-97" n="90" xml:id="page97"/>
+        <div type="poem">
+          <head rend="left bold">NACHT-GESANG</head>
+          <head rend="right bold">I</head>
+          <lg rend="serif">
+            <l>Mild und trüb</l>
+            <l>Ist mir fern</l>
+            <l>Saum und fahrt</l>
+            <l>Mein geschick.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Sturm und herbst</l>
+            <l>Mit dem tod</l>
+            <l>Glanz und mai</l>
+            <l>Mit dem glück.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Was ich tat</l>
+            <l>Was ich litt</l>
+            <l>Was ich sann</l>
+            <l>Was ich bin:</l>
+          </lg>
+          <lg rend="serif">
+            <l>Wie ein brand</l>
+            <l>Der verraucht</l>
+            <l>Wie ein sang</l>
+            <l>Der verklingt.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-98" n="91" xml:id="page98"/>
+        <div type="poem">
+          <head rend="right bold">II</head>
+          <lg rend="serif">
+            <l>Mich erfreute der flug</l>
+            <l>Aller tiefdunklen pracht</l>
+            <l>Aller ernten voll glut</l>
+            <l>Aller seufzer der nacht</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und von frauen die schar</l>
+            <l>Die uns lenkend uns fröhnt</l>
+            <l>Sie im wallenden haar</l>
+            <l>Sie im tanz erst so schön.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Und der jünglinge chor</l>
+            <l>Der mich feurig gegrüsst</l>
+            <l>Deren wort ich belobt</l>
+            <l>Deren scheitel geküsst.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Erst an euch hab ich spät</l>
+            <l>Hohe freunde gefühlt</l>
+            <l>Was uns mählich zerfällt</l>
+            <l>Und was ewig uns glüht.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-99" n="92" xml:id="page99"/>
+        <div type="poem">
+          <head rend="left bold">III</head>
+          <lg rend="serif">
+            <l>Sei rebe die blümt</l>
+            <l>Sei frucht die betört</l>
+            <l>Dir lieb und gerühmt<pc corresp="#pc0011x">. .</pc>
+            </l>
+            <l>Nur meide was stört</l>
+          </lg>
+          <lg rend="serif">
+            <l>Was siecht und vermorscht</l>
+            <l>Was hastet und brüllt ..</l>
+            <l>Von seltnen erforscht</l>
+            <l>Der menge verhüllt</l>
+          </lg>
+          <lg rend="serif">
+            <l>Begehre das graun</l>
+            <l>Das schwellt nicht mehr sprengt —</l>
+            <l>Das schöne zu schaun</l>
+            <l>Das wärmend nicht sengt</l>
+          </lg>
+          <lg rend="serif">
+            <l>Bis traumstill auf höhn</l>
+            <l>Der strahl in dir tauscht</l>
+            <l>In goldnem getön</l>
+            <l>Dein leben verrauscht.</l>
+          </lg>
+        </div>
+        <pb facs="#FACS-100" n="93" xml:id="page100"/>
+        <div type="poem">
+          <head rend="right bold">TRAUM UND TOD</head>
+          <lg rend="serif">
+            <l>Glanz und ruhm! so erwacht unsre welt</l>
+            <l>Heldengleich bannen wir berg und belt</l>
+            <l>Jung und gross schaut der geist ohne vogt</l>
+            <l>Auf die flur auf die flut die umwogt.</l>
+          </lg>
+          <lg rend="serif">
+            <l>Da am weg bricht ein schein fliegt ein bild</l>
+            <l>Und der rausch mit der qual schüttelt wild.</l>
+            <l>Der gebot weint und sinnt beugt sich gern</l>
+            <l>
+              <pc corresp="#pc9x">»</pc>Du mir heil du mir ruhm du mir stern<pc corresp="#pc10x"
+                >«</pc>
+            </l>
+          </lg>
+          <lg rend="serif">
+            <l>Dann der traum höchster stolz steigt empor</l>
+            <l>Er bezwingt kühn den Gott der ihn kor ..</l>
+            <l>Bis ein ruf weit hinab uns verstösst</l>
+            <l>Uns so klein vor dem tod so entblösst!</l>
+          </lg>
+          <lg rend="serif">
+            <l>All dies stürmt reisst und schlägt blizt und brennt</l>
+            <l>Eh für uns spät am nacht-firmament</l>
+            <l>Sich vereint schimmernd still licht-kleinod:</l>
+            <l>Glanz und ruhm rausch und qual traum und tod.</l>
+          </lg>
+        </div>
+      </div>
+      <pb facs="#FACS-101" n="[94]" xml:id="page101"/>
+      <pb facs="#FACS-102" n="95" xml:id="page102"/>
+      <pb facs="#FACS-103" n="96 Inhaltsverzeichnis" xml:id="page103"/>
+      <div type="index">
+        <pb facs="#FACS-104" n="97 Inhaltsverezeichnis" xml:id="page104"/>
+        <pb facs="#FACS-105" n="98 Inhaltsverezeichnis" xml:id="page105"/>
+      </div>
+      <pb facs="#FACS-106" n="[Nachsatz]" xml:id="page106"/>
+    </body>
+    <back>
+      <pb facs="#FACS-107" n="[Kolophon]" xml:id="page107"/>
+      <div type="kolophon">
+        <p rend="center">GEDRUCKT BEI <orgName key="1072952971">
+            <hi rend="spaced">R. BOLL</hi>
+          </orgName>
+          <lb/> IM NOVEMBER NEUNZEHN-<lb/> HUNDERT * * * * *</p>
+      </div>
+      <pb facs="#FACS-108" n="[Nachsatz / fliegendes Blatt]" xml:id="page108"/>
+      <pb facs="#FACS-109" n="[Nachsatz / fliegendes Blatt]" xml:id="page109"/>
+      <pb facs="#FACS-110" n="[Innenseite Buchdeckel]" xml:id="page110"/>
+      <pb facs="#FACS-111" n="[Buchdeckel hinten]" xml:id="page111"/>
+      <pb facs="#FACS-112" n="[Farbkeil]" xml:id="page112"/>
+    </back>
+  </text>
+</TEI>

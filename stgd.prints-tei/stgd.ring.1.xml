@@ -1,0 +1,1024 @@
+<?xml-model href="http://gams.uni-graz.at/context:stgd/SCHEMA" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI n="stg zil pracht" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Der Siebente Ring (1. Aufl., 1907)</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/11853856X">Stefan George</persName>
+        </author>
+        <editor>
+          <persName ref="http://d-nb.info/gnd/1121508855">Frederike Neuber</persName>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digitale Edition der typografisch-varianten Gedichtbände Stefan Georges</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Institut Zentrum für Informationsmodellierung – Austrian Centre for Digital
+            Humanities, Universität Graz </orgName>
+          <email>zim@uni-graz.at</email>
+          <note>The research leading to this edition was funded by a Marie Skłodowska-Curie Early
+            Stage Research Fellowship through the Digital Scholarly Editions Initial Training
+            Network (DiXiT) ITN, a Marie Skłodowska-Curie Action, underwritten by the EU 7th
+            Framework People’s Programme (FP7/2007-2013), REA grant no. 317436.</note>
+          <address>
+            <addrLine>Elisabethstr. 59, 8010 Graz</addrLine>
+            <country>Austria</country>
+          </address>
+        </publisher>
+        <pubPlace>Graz</pubPlace>
+        <date type="publication">Dezember 2020</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">
+            <p>CC BY-NC-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno type="PID">o:stgd.ring.1</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Stefan George: Der Siebente Ring. Berlin: Verlag der Blätter für die Kunst,
+          1907.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title type="main">Der Siebente Ring.</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/11853856X">Stefan George</persName>
+            </author>
+            <respStmt>
+              <resp>Druckerei</resp>
+              <orgName ref="http://d-nb.info/gnd/1072957531">Otto von Holten Buch- und
+                Kunstdruckerei</orgName>
+            </respStmt>
+            <respStmt>
+              <resp>Buchgestaltung</resp>
+              <persName ref="http://d-nb.info/gnd/118726935">Melchior Lechter</persName>
+            </respStmt>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1">Erstausgabe (Prachtausgabe)</edition>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>
+              <orgName>Verlag der Blätter für die Kunst</orgName>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">1907</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Düsseldorf</settlement>
+            <repository>Universitäts- und Landesbibliothek Düsseldorf</repository>
+            <idno>
+              <idno type="shelfmark">ULB Düsseldorf DLIT 16178</idno>
+              <idno type="URLCatalogue">https://katalog.ulb.hhu.de/Record/001223247</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <bibl type="context">
+                <bibl>1. Aufl. Maximin. Ein Gedenkbuch 1907
+                    (Prachtausgabe)<ref>o:stgd.ring-maximin.1</ref>
+                </bibl>
+                <bibl>2. Aufl. 1909 <ref>o:stgd.ring.2</ref>
+                </bibl>
+                <bibl>Gesamt-Ausgabe Bd. 6/7 1928<ref>o:stgd.ring.ga</ref>
+                </bibl>
+              </bibl>
+            </summary>
+          </msContents>
+          <physDesc>
+            <typeDesc>
+              <typeNote xml:id="stgd.ring.1-titel">
+                <desc>Titel</desc>
+                <ptr corresp="#FACS-6"/>
+                <ptr corresp="#FACS-7"/>
+                <ptr corresp="#FACS-8"/>
+                <ptr corresp="#FACS-9"/>
+                <ptr corresp="#FACS-38"/>
+                <ptr corresp="#FACS-39"/>
+                <ptr corresp="#FACS-68"/>
+                <ptr corresp="#FACS-69"/>
+                <ptr corresp="#FACS-98"/>
+                <ptr corresp="#FACS-99"/>
+                <ptr corresp="#FACS-128"/>
+                <ptr corresp="#FACS-129"/>
+                <ptr corresp="#FACS-158"/>
+                <ptr corresp="#FACS-159"/>
+                <ptr corresp="#FACS-188"/>
+                <ptr corresp="#FACS-189"/>
+                <ptr corresp="#FACS-218"/>
+                <ptr corresp="#FACS-219"/>
+              </typeNote>
+              <typeNote xml:id="stgd.ring.1-gedichte">
+                <desc>Gedichte</desc>
+                <ptr corresp="#FACS-10"/>
+                <ptr corresp="#FACS-11"/>
+                <ptr corresp="#FACS-12"/>
+                <ptr corresp="#FACS-13"/>
+                <ptr corresp="#FACS-14"/>
+                <ptr corresp="#FACS-15"/>
+                <ptr corresp="#FACS-16"/>
+                <ptr corresp="#FACS-17"/>
+                <ptr corresp="#FACS-18"/>
+                <ptr corresp="#FACS-19"/>
+                <ptr corresp="#FACS-20"/>
+                <ptr corresp="#FACS-21"/>
+                <ptr corresp="#FACS-22"/>
+                <ptr corresp="#FACS-23"/>
+                <ptr corresp="#FACS-24"/>
+                <ptr corresp="#FACS-25"/>
+                <ptr corresp="#FACS-26"/>
+                <ptr corresp="#FACS-27"/>
+                <ptr corresp="#FACS-28"/>
+                <ptr corresp="#FACS-29"/>
+                <ptr corresp="#FACS-30"/>
+                <ptr corresp="#FACS-31"/>
+                <ptr corresp="#FACS-32"/>
+                <ptr corresp="#FACS-33"/>
+                <ptr corresp="#FACS-34"/>
+                <ptr corresp="#FACS-35"/>
+                <ptr corresp="#FACS-36"/>
+                <ptr corresp="#FACS-37"/>
+                <ptr corresp="#FACS-40"/>
+                <ptr corresp="#FACS-41"/>
+                <ptr corresp="#FACS-42"/>
+                <ptr corresp="#FACS-43"/>
+                <ptr corresp="#FACS-44"/>
+                <ptr corresp="#FACS-45"/>
+                <ptr corresp="#FACS-46"/>
+                <ptr corresp="#FACS-47"/>
+                <ptr corresp="#FACS-48"/>
+                <ptr corresp="#FACS-49"/>
+                <ptr corresp="#FACS-50"/>
+                <ptr corresp="#FACS-51"/>
+                <ptr corresp="#FACS-52"/>
+                <ptr corresp="#FACS-53"/>
+                <ptr corresp="#FACS-54"/>
+                <ptr corresp="#FACS-55"/>
+                <ptr corresp="#FACS-56"/>
+                <ptr corresp="#FACS-57"/>
+                <ptr corresp="#FACS-58"/>
+                <ptr corresp="#FACS-59"/>
+                <ptr corresp="#FACS-60"/>
+                <ptr corresp="#FACS-61"/>
+                <ptr corresp="#FACS-62"/>
+                <ptr corresp="#FACS-63"/>
+                <ptr corresp="#FACS-64"/>
+                <ptr corresp="#FACS-65"/>
+                <ptr corresp="#FACS-66"/>
+                <ptr corresp="#FACS-67"/>
+                <ptr corresp="#FACS-70"/>
+                <ptr corresp="#FACS-71"/>
+                <ptr corresp="#FACS-72"/>
+                <ptr corresp="#FACS-73"/>
+                <ptr corresp="#FACS-74"/>
+                <ptr corresp="#FACS-75"/>
+                <ptr corresp="#FACS-76"/>
+                <ptr corresp="#FACS-77"/>
+                <ptr corresp="#FACS-78"/>
+                <ptr corresp="#FACS-79"/>
+                <ptr corresp="#FACS-80"/>
+                <ptr corresp="#FACS-81"/>
+                <ptr corresp="#FACS-82"/>
+                <ptr corresp="#FACS-83"/>
+                <ptr corresp="#FACS-84"/>
+                <ptr corresp="#FACS-85"/>
+                <ptr corresp="#FACS-86"/>
+                <ptr corresp="#FACS-87"/>
+                <ptr corresp="#FACS-88"/>
+                <ptr corresp="#FACS-89"/>
+                <ptr corresp="#FACS-90"/>
+                <ptr corresp="#FACS-91"/>
+                <ptr corresp="#FACS-92"/>
+                <ptr corresp="#FACS-93"/>
+                <ptr corresp="#FACS-94"/>
+                <ptr corresp="#FACS-95"/>
+                <ptr corresp="#FACS-96"/>
+                <ptr corresp="#FACS-97"/>
+                <ptr corresp="#FACS-100"/>
+                <ptr corresp="#FACS-101"/>
+                <ptr corresp="#FACS-102"/>
+                <ptr corresp="#FACS-103"/>
+                <ptr corresp="#FACS-104"/>
+                <ptr corresp="#FACS-105"/>
+                <ptr corresp="#FACS-106"/>
+                <ptr corresp="#FACS-107"/>
+                <ptr corresp="#FACS-108"/>
+                <ptr corresp="#FACS-109"/>
+                <ptr corresp="#FACS-110"/>
+                <ptr corresp="#FACS-111"/>
+                <ptr corresp="#FACS-112"/>
+                <ptr corresp="#FACS-113"/>
+                <ptr corresp="#FACS-114"/>
+                <ptr corresp="#FACS-115"/>
+                <ptr corresp="#FACS-116"/>
+                <ptr corresp="#FACS-117"/>
+                <ptr corresp="#FACS-118"/>
+                <ptr corresp="#FACS-119"/>
+                <ptr corresp="#FACS-120"/>
+                <ptr corresp="#FACS-121"/>
+                <ptr corresp="#FACS-122"/>
+                <ptr corresp="#FACS-123"/>
+                <ptr corresp="#FACS-124"/>
+                <ptr corresp="#FACS-125"/>
+                <ptr corresp="#FACS-126"/>
+                <ptr corresp="#FACS-127"/>
+                <ptr corresp="#FACS-130"/>
+                <ptr corresp="#FACS-131"/>
+                <ptr corresp="#FACS-132"/>
+                <ptr corresp="#FACS-133"/>
+                <ptr corresp="#FACS-134"/>
+                <ptr corresp="#FACS-135"/>
+                <ptr corresp="#FACS-136"/>
+                <ptr corresp="#FACS-137"/>
+                <ptr corresp="#FACS-138"/>
+                <ptr corresp="#FACS-139"/>
+                <ptr corresp="#FACS-140"/>
+                <ptr corresp="#FACS-141"/>
+                <ptr corresp="#FACS-142"/>
+                <ptr corresp="#FACS-143"/>
+                <ptr corresp="#FACS-144"/>
+                <ptr corresp="#FACS-145"/>
+                <ptr corresp="#FACS-146"/>
+                <ptr corresp="#FACS-147"/>
+                <ptr corresp="#FACS-148"/>
+                <ptr corresp="#FACS-149"/>
+                <ptr corresp="#FACS-150"/>
+                <ptr corresp="#FACS-151"/>
+                <ptr corresp="#FACS-152"/>
+                <ptr corresp="#FACS-153"/>
+                <ptr corresp="#FACS-154"/>
+                <ptr corresp="#FACS-155"/>
+                <ptr corresp="#FACS-156"/>
+                <ptr corresp="#FACS-157"/>
+                <ptr corresp="#FACS-160"/>
+                <ptr corresp="#FACS-161"/>
+                <ptr corresp="#FACS-162"/>
+                <ptr corresp="#FACS-163"/>
+                <ptr corresp="#FACS-164"/>
+                <ptr corresp="#FACS-165"/>
+                <ptr corresp="#FACS-166"/>
+                <ptr corresp="#FACS-167"/>
+                <ptr corresp="#FACS-168"/>
+                <ptr corresp="#FACS-169"/>
+                <ptr corresp="#FACS-170"/>
+                <ptr corresp="#FACS-171"/>
+                <ptr corresp="#FACS-172"/>
+                <ptr corresp="#FACS-173"/>
+                <ptr corresp="#FACS-174"/>
+                <ptr corresp="#FACS-175"/>
+                <ptr corresp="#FACS-176"/>
+                <ptr corresp="#FACS-177"/>
+                <ptr corresp="#FACS-178"/>
+                <ptr corresp="#FACS-179"/>
+                <ptr corresp="#FACS-180"/>
+                <ptr corresp="#FACS-181"/>
+                <ptr corresp="#FACS-182"/>
+                <ptr corresp="#FACS-183"/>
+                <ptr corresp="#FACS-184"/>
+                <ptr corresp="#FACS-185"/>
+                <ptr corresp="#FACS-186"/>
+                <ptr corresp="#FACS-187"/>
+                <ptr corresp="#FACS-190"/>
+                <ptr corresp="#FACS-191"/>
+                <ptr corresp="#FACS-192"/>
+                <ptr corresp="#FACS-193"/>
+                <ptr corresp="#FACS-194"/>
+                <ptr corresp="#FACS-195"/>
+                <ptr corresp="#FACS-196"/>
+                <ptr corresp="#FACS-197"/>
+                <ptr corresp="#FACS-198"/>
+                <ptr corresp="#FACS-199"/>
+                <ptr corresp="#FACS-200"/>
+                <ptr corresp="#FACS-201"/>
+                <ptr corresp="#FACS-202"/>
+                <ptr corresp="#FACS-203"/>
+                <ptr corresp="#FACS-204"/>
+                <ptr corresp="#FACS-205"/>
+                <ptr corresp="#FACS-206"/>
+                <ptr corresp="#FACS-207"/>
+                <ptr corresp="#FACS-208"/>
+                <ptr corresp="#FACS-209"/>
+                <ptr corresp="#FACS-210"/>
+                <ptr corresp="#FACS-211"/>
+                <ptr corresp="#FACS-212"/>
+                <ptr corresp="#FACS-213"/>
+                <ptr corresp="#FACS-214"/>
+                <ptr corresp="#FACS-215"/>
+                <ptr corresp="#FACS-216"/>
+                <ptr corresp="#FACS-217"/>
+              </typeNote>
+              <typeNote xml:id="stgd.ring.1-kolophon">
+                <desc>Kolophon</desc>
+                <ptr corresp="#FACS-221"/>
+              </typeNote>
+            </typeDesc>
+            <decoDesc>
+              <decoNote type="cover">Das Exemplar wurde neu eingebunden.</decoNote>
+              <decoNote type="design">Abbildungen bzw. Zwischentitel, Zierschriften und Bordüren
+                Melchior Lechters.</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab>
+        <ref target="info:fedora/context:stgd.ring" type="context">Die Siebente Ring</ref>
+        <ref target="info:fedora/context:stgd" type="context">Stefan George Digital</ref>
+      </ab>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+
+
+
+
+    <surface start="#page1">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-1"/>
+    </surface>
+    <surface start="#page2">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-2"/>
+    </surface>
+    <surface start="#page3">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-3"/>
+    </surface>
+    <surface start="#page4">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-4"/>
+    </surface>
+    <surface start="#page5">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-5"/>
+    </surface>
+    <surface start="#page6">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-6"/>
+    </surface>
+    <surface start="#page7">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-7"/>
+    </surface>
+    <surface start="#page8">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-8"/>
+    </surface>
+    <surface start="#page9">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-9"/>
+    </surface>
+    <surface start="#page10">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-10"/>
+    </surface>
+    <surface start="#page11">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-11"/>
+    </surface>
+    <surface start="#page12">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-12"/>
+    </surface>
+    <surface start="#page13">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-13"/>
+    </surface>
+    <surface start="#page14">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-14"/>
+    </surface>
+    <surface start="#page15">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-15"/>
+    </surface>
+    <surface start="#page16">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-16"/>
+    </surface>
+    <surface start="#page17">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-17"/>
+    </surface>
+    <surface start="#page18">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-18"/>
+    </surface>
+    <surface start="#page19">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-19"/>
+    </surface>
+    <surface start="#page20">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-20"/>
+    </surface>
+    <surface start="#page21">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-21"/>
+    </surface>
+    <surface start="#page22">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-22"/>
+    </surface>
+    <surface start="#page23">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-23"/>
+    </surface>
+    <surface start="#page24">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-24"/>
+    </surface>
+    <surface start="#page25">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-25"/>
+    </surface>
+    <surface start="#page26">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-26"/>
+    </surface>
+    <surface start="#page27">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-27"/>
+    </surface>
+    <surface start="#page28">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-28"/>
+    </surface>
+    <surface start="#page29">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-29"/>
+    </surface>
+    <surface start="#page30">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-30"/>
+    </surface>
+    <surface start="#page31">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-31"/>
+    </surface>
+    <surface start="#page32">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-32"/>
+    </surface>
+    <surface start="#page33">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-33"/>
+    </surface>
+    <surface start="#page34">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-34"/>
+    </surface>
+    <surface start="#page35">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-35"/>
+    </surface>
+    <surface start="#page36">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-36"/>
+    </surface>
+    <surface start="#page37">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-37"/>
+    </surface>
+    <surface start="#page38">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-38"/>
+    </surface>
+    <surface start="#page39">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-39"/>
+    </surface>
+    <surface start="#page40">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-40"/>
+    </surface>
+    <surface start="#page41">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-41"/>
+    </surface>
+    <surface start="#page42">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-42"/>
+    </surface>
+    <surface start="#page43">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-43"/>
+    </surface>
+    <surface start="#page44">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-44"/>
+    </surface>
+    <surface start="#page45">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-45"/>
+    </surface>
+    <surface start="#page46">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-46"/>
+    </surface>
+    <surface start="#page47">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-47"/>
+    </surface>
+    <surface start="#page48">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-48"/>
+    </surface>
+    <surface start="#page49">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-49"/>
+    </surface>
+    <surface start="#page50">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-50"/>
+    </surface>
+    <surface start="#page51">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-51"/>
+    </surface>
+    <surface start="#page52">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-52"/>
+    </surface>
+    <surface start="#page53">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-53"/>
+    </surface>
+    <surface start="#page54">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-54"/>
+    </surface>
+    <surface start="#page55">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-55"/>
+    </surface>
+    <surface start="#page56">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-56"/>
+    </surface>
+    <surface start="#page57">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-57"/>
+    </surface>
+    <surface start="#page58">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-58"/>
+    </surface>
+    <surface start="#page59">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-59"/>
+    </surface>
+    <surface start="#page60">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-60"/>
+    </surface>
+    <surface start="#page61">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-61"/>
+    </surface>
+    <surface start="#page62">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-62"/>
+    </surface>
+    <surface start="#page63">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-63"/>
+    </surface>
+    <surface start="#page64">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-64"/>
+    </surface>
+    <surface start="#page65">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-65"/>
+    </surface>
+    <surface start="#page66">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-66"/>
+    </surface>
+    <surface start="#page67">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-67"/>
+    </surface>
+    <surface start="#page68">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-68"/>
+    </surface>
+    <surface start="#page69">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-69"/>
+    </surface>
+    <surface start="#page70">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-70"/>
+    </surface>
+    <surface start="#page71">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-71"/>
+    </surface>
+    <surface start="#page72">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-72"/>
+    </surface>
+    <surface start="#page73">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-73"/>
+    </surface>
+    <surface start="#page74">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-74"/>
+    </surface>
+    <surface start="#page75">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-75"/>
+    </surface>
+    <surface start="#page76">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-76"/>
+    </surface>
+    <surface start="#page77">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-77"/>
+    </surface>
+    <surface start="#page78">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-78"/>
+    </surface>
+    <surface start="#page79">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-79"/>
+    </surface>
+    <surface start="#page80">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-80"/>
+    </surface>
+    <surface start="#page81">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-81"/>
+    </surface>
+    <surface start="#page82">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-82"/>
+    </surface>
+    <surface start="#page83">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-83"/>
+    </surface>
+    <surface start="#page84">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-84"/>
+    </surface>
+    <surface start="#page85">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-85"/>
+    </surface>
+    <surface start="#page86">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-86"/>
+    </surface>
+    <surface start="#page87">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-87"/>
+    </surface>
+    <surface start="#page88">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-88"/>
+    </surface>
+    <surface start="#page89">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-89"/>
+    </surface>
+    <surface start="#page90">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-90"/>
+    </surface>
+    <surface start="#page91">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-91"/>
+    </surface>
+    <surface start="#page92">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-92"/>
+    </surface>
+    <surface start="#page93">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-93"/>
+    </surface>
+    <surface start="#page94">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-94"/>
+    </surface>
+    <surface start="#page95">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-95"/>
+    </surface>
+    <surface start="#page96">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-96"/>
+    </surface>
+    <surface start="#page97">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-97"/>
+    </surface>
+    <surface start="#page98">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-98"/>
+    </surface>
+    <surface start="#page99">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-99"/>
+    </surface>
+    <surface start="#page100">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-100"/>
+    </surface>
+    <surface start="#page101">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-101"/>
+    </surface>
+    <surface start="#page102">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-102"/>
+    </surface>
+    <surface start="#page103">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-103"/>
+    </surface>
+    <surface start="#page104">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-104"/>
+    </surface>
+    <surface start="#page105">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-105"/>
+    </surface>
+    <surface start="#page106">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-106"/>
+    </surface>
+    <surface start="#page107">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-107"/>
+    </surface>
+    <surface start="#page108">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-108"/>
+    </surface>
+    <surface start="#page109">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-109"/>
+    </surface>
+    <surface start="#page110">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-110"/>
+    </surface>
+    <surface start="#page111">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-111"/>
+    </surface>
+    <surface start="#page112">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-112"/>
+    </surface>
+    <surface start="#page113">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-113"/>
+    </surface>
+    <surface start="#page114">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-114"/>
+    </surface>
+    <surface start="#page115">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-115"/>
+    </surface>
+    <surface start="#page116">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-116"/>
+    </surface>
+    <surface start="#page117">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-117"/>
+    </surface>
+    <surface start="#page118">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-118"/>
+    </surface>
+    <surface start="#page119">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-119"/>
+    </surface>
+    <surface start="#page120">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-120"/>
+    </surface>
+    <surface start="#page121">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-121"/>
+    </surface>
+    <surface start="#page122">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-122"/>
+    </surface>
+    <surface start="#page123">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-123"/>
+    </surface>
+    <surface start="#page124">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-124"/>
+    </surface>
+    <surface start="#page125">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-125"/>
+    </surface>
+    <surface start="#page126">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-126"/>
+    </surface>
+    <surface start="#page127">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-127"/>
+    </surface>
+    <surface start="#page128">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-128"/>
+    </surface>
+    <surface start="#page129">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-129"/>
+    </surface>
+    <surface start="#page130">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-130"/>
+    </surface>
+    <surface start="#page131">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-131"/>
+    </surface>
+    <surface start="#page132">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-132"/>
+    </surface>
+    <surface start="#page133">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-133"/>
+    </surface>
+    <surface start="#page134">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-134"/>
+    </surface>
+    <surface start="#page135">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-135"/>
+    </surface>
+    <surface start="#page136">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-136"/>
+    </surface>
+    <surface start="#page137">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-137"/>
+    </surface>
+    <surface start="#page138">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-138"/>
+    </surface>
+    <surface start="#page139">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-139"/>
+    </surface>
+    <surface start="#page140">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-140"/>
+    </surface>
+    <surface start="#page141">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-141"/>
+    </surface>
+    <surface start="#page142">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-142"/>
+    </surface>
+    <surface start="#page143">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-143"/>
+    </surface>
+    <surface start="#page144">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-144"/>
+    </surface>
+    <surface start="#page145">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-145"/>
+    </surface>
+    <surface start="#page146">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-146"/>
+    </surface>
+    <surface start="#page147">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-147"/>
+    </surface>
+    <surface start="#page148">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-148"/>
+    </surface>
+    <surface start="#page149">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-149"/>
+    </surface>
+    <surface start="#page150">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-150"/>
+    </surface>
+    <surface start="#page151">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-151"/>
+    </surface>
+    <surface start="#page152">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-152"/>
+    </surface>
+    <surface start="#page153">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-153"/>
+    </surface>
+    <surface start="#page154">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-154"/>
+    </surface>
+    <surface start="#page155">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-155"/>
+    </surface>
+    <surface start="#page156">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-156"/>
+    </surface>
+    <surface start="#page157">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-157"/>
+    </surface>
+    <surface start="#page158">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-158"/>
+    </surface>
+    <surface start="#page159">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-159"/>
+    </surface>
+    <surface start="#page160">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-160"/>
+    </surface>
+    <surface start="#page161">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-161"/>
+    </surface>
+    <surface start="#page162">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-162"/>
+    </surface>
+    <surface start="#page163">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-163"/>
+    </surface>
+    <surface start="#page164">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-164"/>
+    </surface>
+    <surface start="#page165">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-165"/>
+    </surface>
+    <surface start="#page166">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-166"/>
+    </surface>
+    <surface start="#page167">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-167"/>
+    </surface>
+    <surface start="#page168">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-168"/>
+    </surface>
+    <surface start="#page169">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-169"/>
+    </surface>
+    <surface start="#page170">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-170"/>
+    </surface>
+    <surface start="#page171">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-171"/>
+    </surface>
+    <surface start="#page172">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-172"/>
+    </surface>
+    <surface start="#page173">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-173"/>
+    </surface>
+    <surface start="#page174">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-174"/>
+    </surface>
+    <surface start="#page175">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-175"/>
+    </surface>
+    <surface start="#page176">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-176"/>
+    </surface>
+    <surface start="#page177">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-177"/>
+    </surface>
+    <surface start="#page178">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-178"/>
+    </surface>
+    <surface start="#page179">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-179"/>
+    </surface>
+    <surface start="#page180">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-180"/>
+    </surface>
+    <surface start="#page181">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-181"/>
+    </surface>
+    <surface start="#page182">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-182"/>
+    </surface>
+    <surface start="#page183">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-183"/>
+    </surface>
+    <surface start="#page184">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-184"/>
+    </surface>
+    <surface start="#page185">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-185"/>
+    </surface>
+    <surface start="#page186">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-186"/>
+    </surface>
+    <surface start="#page187">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-187"/>
+    </surface>
+    <surface start="#page188">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-188"/>
+    </surface>
+    <surface start="#page189">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-189"/>
+    </surface>
+    <surface start="#page190">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-190"/>
+    </surface>
+    <surface start="#page191">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-191"/>
+    </surface>
+    <surface start="#page192">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-192"/>
+    </surface>
+    <surface start="#page193">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-193"/>
+    </surface>
+    <surface start="#page194">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-194"/>
+    </surface>
+    <surface start="#page195">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-195"/>
+    </surface>
+    <surface start="#page196">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-196"/>
+    </surface>
+    <surface start="#page197">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-197"/>
+    </surface>
+    <surface start="#page198">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-198"/>
+    </surface>
+    <surface start="#page199">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-199"/>
+    </surface>
+    <surface start="#page200">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-200"/>
+    </surface>
+    <surface start="#page201">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-201"/>
+    </surface>
+    <surface start="#page202">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-202"/>
+    </surface>
+    <surface start="#page203">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-203"/>
+    </surface>
+    <surface start="#page204">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-204"/>
+    </surface>
+    <surface start="#page205">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-205"/>
+    </surface>
+    <surface start="#page206">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-206"/>
+    </surface>
+    <surface start="#page207">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-207"/>
+    </surface>
+    <surface start="#page208">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-208"/>
+    </surface>
+    <surface start="#page209">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-209"/>
+    </surface>
+    <surface start="#page210">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-210"/>
+    </surface>
+    <surface start="#page211">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-211"/>
+    </surface>
+    <surface start="#page212">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-212"/>
+    </surface>
+    <surface start="#page213">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-213"/>
+    </surface>
+    <surface start="#page214">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-214"/>
+    </surface>
+    <surface start="#page215">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-215"/>
+    </surface>
+    <surface start="#page216">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-216"/>
+    </surface>
+    <surface start="#page217">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-217"/>
+    </surface>
+    <surface start="#page218">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-218"/>
+    </surface>
+    <surface start="#page219">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-219"/>
+    </surface>
+    <surface start="#page220">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-220"/>
+    </surface>
+    <surface start="#page221">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-221"/>
+    </surface>
+    <surface start="#page222">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-222"/>
+    </surface>
+    <surface start="#page223">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-223"/>
+    </surface>
+    <surface start="#page224">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-224"/>
+    </surface>
+    <surface start="#page225">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-225"/>
+    </surface>
+    <surface start="#page226">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.ring.1" xml:id="FACS-226"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div/>
+    </body>
+  </text>
+</TEI>

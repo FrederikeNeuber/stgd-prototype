@@ -1,0 +1,174 @@
+<?xml-model href="http://gams.uni-graz.at/context:stgd/SCHEMA" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI n="stg ovh" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Drei Gesänge. An die Toten. Der Dichter in Zeiten der Wirren. Einem jungen Führer im
+          ersten Weltkrieg (1. Aufl., 1921)</title>
+        <author>
+          <persName ref="http://d-nb.info/gnd/11853856X">Stefan George</persName>
+        </author>
+        <editor>
+          <persName ref="http://d-nb.info/gnd/1121508855">Frederike Neuber</persName>
+        </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>Digitale Edition der typografisch-varianten Gedichtbände Stefan Georges</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Institut Zentrum für Informationsmodellierung – Austrian Centre for Digital
+            Humanities, Universität Graz </orgName>
+          <email>zim@uni-graz.at</email>
+          <note>The research leading to this edition was funded by a Marie Skłodowska-Curie Early
+            Stage Research Fellowship through the Digital Scholarly Editions Initial Training
+            Network (DiXiT) ITN, a Marie Skłodowska-Curie Action, underwritten by the EU 7th
+            Framework People’s Programme (FP7/2007-2013), REA grant no. 317436.</note>
+          <address>
+            <addrLine>Elisabethstr. 59, 8010 Graz</addrLine>
+            <country>Austria</country>
+          </address>
+        </publisher>
+        <pubPlace>Graz</pubPlace>
+        <date type="publication">Dezember 2020</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0">
+            <p>CC BY-NC-SA 4.0</p>
+          </licence>
+        </availability>
+        <idno type="PID">o:stgd.reich-gesaenge.1</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Stefan George: Drei Gesänge. An die Toten. Der Dichter in Zeiten der Wirren. Einem
+          jungen Führer im ersten Weltkrieg. Berlin: Georg Bondi, 1921.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title type="main">Drei Gesänge. An die Toten. Der Dichter in Zeiten der Wirren. Einem
+              jungen Führer im ersten Weltkrieg.</title>
+            <author>
+              <persName ref="http://d-nb.info/gnd/11853856X">Stefan George</persName>
+            </author>
+            <respStmt>
+              <resp>Druckerei</resp>
+              <orgName ref="http://d-nb.info/gnd/1072957531">Otto von Holten Buch- und
+                Kunstdruckerei</orgName>
+            </respStmt>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1">Erste Ausgabe</edition>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>
+              <orgName ref="http://d-nb.info/gnd/1072941562">Georg Bondi Verlag</orgName>
+            </publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date type="publication">1921</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Düsseldorf</settlement>
+            <repository>Universitäts- und Landesbibliothek Düsseldorf</repository>
+            <idno>
+              <idno type="shelfmark">ULB Düsseldorf DLIT 3758</idno>
+              <idno type="URLCatalogue">https://katalog.ulb.hhu.de/Record/001223242</idno>
+            </idno>
+          </msIdentifier>
+          <msContents>
+            <summary>
+              <bibl type="context">
+                <bibl>1. Aufl. Krieg. Dichtung von Stefan George. 1917
+                    <ref>o:stgd.reich-krieg.1</ref>
+                </bibl>
+                <bibl>Gesamt-Ausgabe Bd. 9 1928 <ref>o:stgd.reich.ga</ref>
+                </bibl>
+              </bibl>
+            </summary>
+          </msContents>
+          <physDesc>
+            <typeDesc>
+              <typeNote xml:id="stgd.reich-gesaenge.1-titel">
+                <desc>Titel</desc>
+                <ptr corresp="#FACS-1"/>
+              </typeNote>
+              <typeNote xml:id="stgd.reich-gesaenge.1-gedichte">
+                <desc>Gedichte</desc>
+                <ptr corresp="#FACS-4"/>
+                <ptr corresp="#FACS-5"/>
+                <ptr corresp="#FACS-6"/>
+                <ptr corresp="#FACS-7"/>
+                <ptr corresp="#FACS-8"/>
+                <ptr corresp="#FACS-9"/>
+                <ptr corresp="#FACS-10"/>
+              </typeNote>
+              <typeNote xml:id="stgd.reich-gesaenge.1-kolophon">
+                <desc>Kolophon</desc>
+                <ptr corresp="#FACS-12"/>
+              </typeNote>
+            </typeDesc>
+            <decoDesc>
+              <decoNote type="cover">Dunkelblaues Papier mit goldenen Lettern, Monstranzisignet der
+                "Blätter für die Kunst".</decoNote>
+              <decoNote type="editorial">Der dunkelblaue Einband wurde später für die Bände der
+                Gesamt-Ausgabe übernommen.</decoNote>
+            </decoDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab>
+        <ref target="info:fedora/context:stgd.reich" type="context">Das Neue Reich</ref>
+        <ref target="info:fedora/context:stgd" type="context">Stefan George Digital</ref>
+      </ab>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+
+
+    <surface start="#page1">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-1"/>
+    </surface>
+    <surface start="#page2">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-2"/>
+    </surface>
+    <surface start="#page3">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-3"/>
+    </surface>
+    <surface start="#page4">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-4"/>
+    </surface>
+    <surface start="#page5">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-5"/>
+    </surface>
+    <surface start="#page6">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-6"/>
+    </surface>
+    <surface start="#page7">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-7"/>
+    </surface>
+    <surface start="#page8">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-8"/>
+    </surface>
+    <surface start="#page9">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-9"/>
+    </surface>
+    <surface start="#page10">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-10"/>
+    </surface>
+    <surface start="#page11">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-11"/>
+    </surface>
+    <surface start="#page12">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-12"/>
+    </surface>
+    <surface start="#page13">
+      <graphic mimeType="image/jpeg" url="info:fedora/o:stgd.reich-gesaenge.1" xml:id="FACS-13"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div/>
+    </body>
+  </text>
+</TEI>

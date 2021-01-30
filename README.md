@@ -8,7 +8,9 @@ This repository collects data from the prototype edition ‘Stefan George Digita
 
 * stgd.prints-tei: 25 XML/TEI files of printed volumes of George's works, including metadata (all) and full text (only stgd.teppich.*)
 * stgd.schema: relaxNG-schema of the XML/TEI files
-* stgd.ontology: Description system for microtypography in RDF/OWL
+* stgd.ontology: Description system for microtypography in RDF/OWL applied to the edition's corpus (TBox and ABox)
+
+The ontology of microtypography (only TBox) can be found in a separate repository: https://github.com/FrederikeNeuber/typoo
 
 ## Background information on the prototype edition
 

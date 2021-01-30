@@ -6,10 +6,9 @@ This repository collects data from the prototype edition ‘Stefan George Digita
 
 ## Content of the repository
 
-* RDF/OWL-File
-* XML/TEI files (21)
-* XML/TEI files (25)
-* relaxNG-schema of the TEI-files
+* stgd.prints-tei: 25 XML/TEI files of printed volumes of George's works, including metadata (all) and full text (only stgd.teppich.*)
+* stgd.schema: relaxNG-schema of the XML/TEI files
+* stgd.ontology: Description system for microtypography in RDF/OWL
 
 ## Background information on the prototype edition
 
@@ -36,6 +35,6 @@ The technical ecosystem of StGD is the FEDORA-based asset management system GAMS
 
 **Context of Creation:** StGD emerged within the author’s PhD at the Centre for Information Modelling at the University of Graz and the University of Cologne (finished 2019, published 2020). It was supported by the *Digital Scholarly Editions Initial Training Network* DiXiT (funded 2013–2017 under Marie Curie Actions within the European Commission’s 7th Framework). 
 
-**License:** CC-BY-NC-SA 4.0
+**License:** CC-BY-SA 4.0
 
 **Citation Recommendation:** Neuber, Frederike. ‘stgd-prototype-edition: A prototype edition with focus on microtypography in Stefan George's works’ Date Published 28.4.2020. Date Accessed: #### , https://github.com/FrederikeNeuber/stgd-prototype-edition.
